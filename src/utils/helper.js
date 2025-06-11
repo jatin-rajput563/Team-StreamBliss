@@ -1,7 +1,6 @@
-import { CheckArrow } from "./Icons";
+import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sharing, Streaming } from "./Icons";
 
 export const Pricing_Data = [
-
     {
         text: "Free",
         amount: "$00",
@@ -39,4 +38,52 @@ export const Pricing_Data = [
         para4: "Ad-free content delivery",
         para5: "Priority support",
     },
+]
+export const EveryThing_Data = [
+    {
+        icon: Streaming,
+        Heading: "HD Streaming",
+        para: "Stream your content in high quality without buffering."
+    },
+    {
+        icon: Cloud,
+        Heading: "Cloud Storage",
+        para: "Store your videos securely in the cloud with unlimited storage space."
+    },
+    {
+        icon: ShareX,
+        Heading: "Image Upload with ShareX",
+        para: "Upload images instantly using our ShareX configuration for seamless sharing."
+    },
+    {
+        icon: Sharing,
+        Heading: "Private Sharing",
+        para: "Share your videos privately with selected viewers. "
+    },
+    {
+        icon: Security,
+        Heading: "Advanced Security",
+        para: "End-to-end encryption ensures your content remains protected. "
+    },
+    {
+        icon: Editing,
+        Heading: "Basic Editing",
+        para: "Trim, crop, and add filters to your videos directly in the app. "
+    },
+    {
+        icon: Sharing,
+        Heading: "Cross-platform Sharing",
+        para: "Easily share your content across all major social platforms. "
+    },
+    {
+        icon: Community,
+        Heading: "Community",
+        para: "Connect with like-minded creators and build your audience through our community features. "
+    },
+    {
+        icon: Analytics,
+        Heading: "Analytics",
+        para: "Track your video performance with detailed viewership statistics and audience insights."
+    },
+
 ]
