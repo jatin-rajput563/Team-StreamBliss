@@ -14,11 +14,11 @@ const Hero = () => {
       </div>
       <div className="px-3 relative pb-[112px]">
         <div className="max-w-[1140px] mx-auto relative">
-          <div className="max-w-[239px] absolute top-45 left-9">
+          <div className="max-w-[239px] absolute top-45 left-9 hidden lg:block">
             <div className="flex  justify-end"><LeftArrow /></div>
             <div className='flex bg-[linear-gradient(180deg,rgba(184,81,224,0.08)_0%,rgba(235,72,155,0.08)_100%)] max-w-[226px] rounded-[95px] items-center gap-2 py-1.5 px-5.5 border border-[#8B858D]'><StorageCloud /><span className='text-[#FCFCFC] font-semibold whitespace-nowrap'>Unlimited Storage</span></div>
           </div>
-          <div className="max-w-[264px] absolute top-52 right-6">
+          <div className="max-w-[264px] absolute max-[1140px]:top-42 top-52 right-6 hidden lg:block">
             <div className="flex  justify-start"><RightArrow /></div>
             <div className='flex max-w-[264px] bg-[linear-gradient(180deg,rgba(184,81,224,0.08)_0%,rgba(235,72,155,0.08)_100%)] rounded-[95px] items-center gap-2 py-1.5 px-5.5 border border-[#8B858D]'><EncryptionIcon /> <span className='text-[#FCFCFC] font-semibold whitespace-nowrap'>End-to-End Encryption</span></div>
           </div>
