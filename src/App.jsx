@@ -8,6 +8,7 @@ import Members from "./components/Members";
 import Ready from "./components/Ready";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+import BackToTop from "./components/common/BackToTop";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Ready />
       <Faq />
       <Footer />
+      <BackToTop />
     </>
   );
 }
