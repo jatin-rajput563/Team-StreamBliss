@@ -38,7 +38,8 @@ export const Pricing_Data = [
         para4: "Ad-free content delivery",
         para5: "Priority support",
     },
-]
+];
+
 export const EveryThing_Data = [
     {
         icon: Streaming,
@@ -86,4 +87,23 @@ export const EveryThing_Data = [
         para: "Track your video performance with detailed viewership statistics and audience insights."
     },
 
-]
+];
+
+export const HEADER_LIST = [
+    {
+        title: "Home",
+        link: "#home"
+    },
+    {
+        title: "How it Works",
+        link: "#work"
+    },
+    {
+        title: "Features",
+        link: "#features"
+    },
+    {
+        title: "Pricing",
+        link: "#pricing"
+    },
+];
