@@ -20,6 +20,7 @@ export const CheckArrow = () => (
     />
   </svg>
 );
+
 export const Streaming = () => (
   <svg
     width="79"
@@ -91,6 +92,7 @@ export const Streaming = () => (
     </defs>
   </svg>
 );
+
 export const Cloud = () => (
   <svg
     width="65"
@@ -151,6 +153,7 @@ export const Cloud = () => (
     </defs>
   </svg>
 );
+
 export const ShareX = () => (
   <svg
     width="79"
@@ -224,6 +227,7 @@ export const ShareX = () => (
     </defs>
   </svg>
 );
+
 export const Private = () => (
   <svg
     width="80"
@@ -288,6 +292,7 @@ export const Private = () => (
     </defs>
   </svg>
 );
+
 export const Security = () => (
   <svg
     width="79"
@@ -357,6 +362,7 @@ export const Security = () => (
     </defs>
   </svg>
 );
+
 export const Editing = () => (
   <svg
     width="80"
@@ -437,6 +443,7 @@ export const Editing = () => (
     </defs>
   </svg>
 );
+
 export const Sharing = () => (
   <svg
     width="79"
@@ -536,6 +543,7 @@ export const Sharing = () => (
     </defs>
   </svg>
 );
+
 export const Community = () => (
   <svg
     width="80"
@@ -632,6 +640,7 @@ export const Community = () => (
     </defs>
   </svg>
 );
+
 export const Analytics = () => (
   <svg
     width="79"
