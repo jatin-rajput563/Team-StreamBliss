@@ -10,11 +10,11 @@ import { MEMBER_ICON } from "../utils/Icons";
 const Members = () => {
   return (
     <>
-      <div className="p-4" id="members">
+      <div className="px-4" id="members">
         <div className="bg-[#000000]">
           <div className="max-w-[1920px] mx-auto lg:pb-[140px] md:pb-[100px] sm:pb-[50px] pb-[30px] ">
             <Heading headingClass="text-[#FFFFFF] mb-4" headingText="What Members Are Saying" />
-            <Description descriptionClass="text-center text-[#FFFFFF] mb-5" descriptionText="We’ve compiled some helpful reviews for you here." />
+            <Description descriptionClass="text-center mb-5" descriptionText="We’ve compiled some helpful reviews for you here." />
             <div className="custom-border max-w-[694px] mx-auto "></div>
             <Swiper
               modules={[Autoplay]}
@@ -25,8 +25,8 @@ const Members = () => {
               breakpoints={{
                 320: { slidesPerView: 1, spaceBetween: 20 },
                 640: { slidesPerView: 1, spaceBetween: 30 },
-                768: { slidesPerView: 2, spaceBetween: 40 },
-                1024: { slidesPerView: 3, spaceBetween: 60 },
+                768: { slidesPerView: 2, spaceBetween: 20 },
+                1024: { slidesPerView: 3, spaceBetween: 0 },
               }}
               className="mx-auto mt-[50px] h-full">
               {MEMBERS_DATA.map((Obj, index) => (
