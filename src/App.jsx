@@ -8,6 +8,7 @@ import Members from "./components/Members";
 import Ready from "./components/Ready";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
