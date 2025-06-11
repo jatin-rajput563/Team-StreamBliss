@@ -23,6 +23,34 @@
     mask-composite: exclude;
 }
 
+.box-border-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 51px;
+    min-width: 50px;
+    border-radius: 12px;
+    padding: 1px;
+    background: linear-gradient(204.52deg, #FFFFFF 11.72%, rgba(255, 255, 255, 0) 95.7%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+.box:hover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 1px;
+    background: linear-gradient(180deg, rgba(184, 81, 224, 0.24) 0%, rgba(235, 72, 155, 0.24) 100%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
 @media (max-width:1023.98px) {
     .nav-link {
         flex-direction: column;
