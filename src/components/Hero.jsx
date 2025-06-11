@@ -4,7 +4,7 @@ import Description from './common/Description'
 import CustomButton from './common/CustomButton'
 import heroImg from '../assets/images/png/hero-img.png'
 import heroLayer from '../assets/images/png/hero-layer.png'
-import { CameraIcon, UploadIcon,CloudIcon } from '../utils/Icons'
+import { CameraIcon, UploadIcon, CloudIcon, StorageCloud, LeftArrow, RightArrow, EncryptionIcon } from '../utils/Icons'
 
 const Hero = () => {
   return (
@@ -13,7 +13,15 @@ const Hero = () => {
         <Header />
       </div>
       <div className="px-3 relative pb-[112px]">
-        <div className="max-w-[1140px] mx-auto">
+        <div className="max-w-[1140px] mx-auto relative">
+          <div className="max-w-[239px] absolute top-45 left-9">
+            <div className="flex  justify-end"><LeftArrow /></div>
+            <div className='flex bg-[linear-gradient(180deg,rgba(184,81,224,0.08)_0%,rgba(235,72,155,0.08)_100%)] max-w-[226px] rounded-[95px] items-center gap-2 py-1.5 px-5.5 border border-[#8B858D]'><StorageCloud /><span className='text-[#FCFCFC] font-semibold whitespace-nowrap'>Unlimited Storage</span></div>
+          </div>
+          <div className="max-w-[264px] absolute top-52 right-6">
+            <div className="flex  justify-start"><RightArrow /></div>
+            <div className='flex max-w-[264px] bg-[linear-gradient(180deg,rgba(184,81,224,0.08)_0%,rgba(235,72,155,0.08)_100%)] rounded-[95px] items-center gap-2 py-1.5 px-5.5 border border-[#8B858D]'><EncryptionIcon /> <span className='text-[#FCFCFC] font-semibold whitespace-nowrap'>End-to-End Encryption</span></div>
+          </div>
           <div className="justify-center flex pt-17">
             <h1 className='font-bold text-[35px] sm:text-[52px] md:text-[58px] leading-[130%] text-center max-w-[576px] text-white'>The Creative Cloud for Everyone</h1>
           </div>
@@ -29,8 +37,8 @@ const Hero = () => {
           <img className='mx-auto pt-17 pointer-events-none' src={heroImg} alt="" />
           <div className="flex flex-wrap max-lg:gap-4 lg:justify-between z-1 relative justify-center pt-4">
             <CustomButton btnClass={"py-[14px] px-[87px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<CameraIcon />} btnText={"461 watching"} />
-            <CustomButton btnClass={"p-[14px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<UploadIcon/>} btnText={"2,000+ Creators uploading now "} />
-            <CustomButton btnClass={"py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<CloudIcon/>} btnText={"2069 uploads today"} />
+            <CustomButton btnClass={"p-[14px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<UploadIcon />} btnText={"2,000+ Creators uploading now "} />
+            <CustomButton btnClass={"py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<CloudIcon />} btnText={"2069 uploads today"} />
           </div>
         </div>
         <img className='absolute max-[681px]:bottom-80 max-[1016px]:bottom-60 max-[1250px]:bottom-40 max-[1440px]:bottom-30 bottom-25 left-0 w-full max-h-[425px] pointer-events-none' src={heroLayer} alt="" />
