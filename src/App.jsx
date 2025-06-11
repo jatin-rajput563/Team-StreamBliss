@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Hero from "./components/Hero";
 import Action from "./components/Action";
 import Everything from "./components/Everything";
 import Pricing from "./components/Pricing";
@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
+      <Hero />
       <Action />
       <Everything />
       <Pricing />
