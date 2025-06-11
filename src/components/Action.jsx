@@ -9,7 +9,7 @@ const Action = () => {
     <>
       <div className="px-3">
         <div className="max-w-[1144px] mx-auto">
-          <Heading headingClass={""} headingText={"StreamBliss in Action"} />
+          <Heading headingText={"StreamBliss in Action"} />
           <Description descriptionClass={"text-center pt-4"} descriptionText={"See how easy it is to upload and share your videos."} />
           <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
           <div className="flex flex-wrap gap-3 justify-between sm:mt-[27px]">

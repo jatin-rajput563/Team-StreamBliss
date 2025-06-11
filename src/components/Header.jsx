@@ -34,7 +34,7 @@ const Header = () => {
               <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
               <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
             </div>
-            <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-7 lg:gap-[35px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
+            <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-7 lg:gap-[35px] mb-0 max-lg:fixed max-lg:w-full max-lg:min-h-screen max-lg:flex-col max-lg:bottom-0 max-lg:-right-full max-lg:top-0 max-lg:z-3 max-lg:bg-black transition-all duration-300 ease-in-out ${menuOpen ? "max-lg:right-0" : ""}`}>
               {HEADER_LIST.map((item, index) => (
                 <li key={index}><a onClick={linkClick} className='text-white header-link leading-[160%] transition-all duration-200 ease-linear' href={item.link}>{item.title}</a></li>
               ))}
