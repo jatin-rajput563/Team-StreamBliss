@@ -8,7 +8,7 @@ import { CameraIcon, UploadIcon, CloudIcon, StorageCloud, LeftArrow, RightArrow,
 
 const Hero = () => {
   return (
-    <>
+    <div className='bg-[url(src/assets/images/png/hero-bg-img.png)] bg-cover bg-center bg-no-repeat'>
       <div className="mx-auto">
         <Header />
       </div>
@@ -36,14 +36,14 @@ const Hero = () => {
         <div className="max-w-[994px] mx-auto">
           <img className='mx-auto pt-17 pointer-events-none' src={heroImg} alt="" />
           <div className="flex flex-wrap max-lg:gap-4 lg:justify-between z-1 relative justify-center pt-4">
-            <CustomButton btnClass={"py-[14px] px-[87px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<CameraIcon />} btnText={"461 watching"} />
-            <CustomButton btnClass={"p-[14px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<UploadIcon />} btnText={"2,000+ Creators uploading now "} />
-            <CustomButton btnClass={"py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]"} btnIcon={<CloudIcon />} btnText={"2069 uploads today"} />
+            <div className='py-[14px] px-[87px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CameraIcon /> <span>461 watching</span></div>
+            <div className='p-[14px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><UploadIcon /> <span>2,000+ Creators uploading now</span></div>
+            <div className='py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CloudIcon /> <span> 2069 uploads today</span></div>
           </div>
         </div>
         <img className='absolute max-[681px]:bottom-80 max-[1016px]:bottom-60 max-[1250px]:bottom-40 max-[1440px]:bottom-30 bottom-25 left-0 w-full max-h-[425px] pointer-events-none' src={heroLayer} alt="" />
       </div>
-    </>
+    </div>
   )
 }
 
