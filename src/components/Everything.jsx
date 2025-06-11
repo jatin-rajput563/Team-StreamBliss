@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 import { EveryThing_Data } from "../utils/helper";
 
 const Everything = () => {
@@ -20,11 +20,11 @@ const Everything = () => {
             <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-8 mx-auto"></div>
           </div>
         </div>
-        <Marquee>
+        {/* <Marquee>
           {EveryThing_Data.map((item, index) => (
             <div className=""></div>
           ))}
-        </Marquee>
+        </Marquee> */}
       </div>
     </>
   );

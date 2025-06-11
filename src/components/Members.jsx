@@ -21,31 +21,29 @@ const Members = () => {
               autoplay={{ delay: 3000 }}
               loop={true}
               spaceBetween={30}
+              centeredSlides={true}
               breakpoints={{
                 320: { slidesPerView: 1, spaceBetween: 20 },
                 640: { slidesPerView: 1, spaceBetween: 30 },
-                768: { slidesPerView: 2, spaceBetween: 50 },
-                1024: { slidesPerView: 3, spaceBetween: 94 },
+                768: { slidesPerView: 2, spaceBetween: 40 },
+                1024: { slidesPerView: 3, spaceBetween: 60 },
               }}
-              className="mx-auto mt-[50px]">
+              className="mx-auto mt-[50px] h-full">
               {MEMBERS_DATA.map((Obj, index) => (
                 <SwiperSlide key={index} className="transition-all duration-500">
-                  <div className="flex flex-col   transition-all duration-500">
-                    <div className="mb-6">
-                      <MEMBER_ICON />
-                    </div>
-                    <p className="text-white mb-6 max-w-[437px] text-base">{Obj.text}</p>
-                    <div className="flex items-center gap-[11px] mt-auto">
+                  <div className="flex flex-col justify-between min-h-[270px] w-full max-w-[437px] mx-auto ">
+                  <div><div className="mb-6"><MEMBER_ICON /></div>
+                      <p className="text-[#FFFFFF] mb-6 text-base leading-[160%]">{Obj.text}</p></div>
+                    <div className="flex items-center gap-[11px]">
                       <img src={Obj.image} alt={Obj.name} className="w-14 h-14 rounded-full" />
                       <div className="text-left">
-                        <div className="font-medium text-white text-base leading-[160%]">{Obj.name}</div>
+                        <div className="font-medium text-[#FFFFFF] text-base leading-[160%]">{Obj.name}</div>
                         <div className="text-sm text-[#FFFFFF] opacity-70 leading-[160%]">{Obj.role}</div>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
               ))}
-           
             </Swiper>
           </div>
         </div>
