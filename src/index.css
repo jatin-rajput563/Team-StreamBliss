@@ -3,12 +3,10 @@
     border-image-source: linear-gradient(90deg, #000000 0%, #FFFFFF 54.03%, #000000 100%);
     border-image-slice: 1;
 }
-
 .swiper-slide {
     transition: all 0.5s ease;
     opacity: 0.5;
 }
-
 .swiper-slide-active {
     opacity: 1 !important;
     filter: blur(0px) !important;
