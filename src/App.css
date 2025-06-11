@@ -5,3 +5,10 @@
     font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
+
+.most_popular {
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #B851E0 0%, #EB489B 100%);
+    border-image-slice: 1;
+    border-radius: 29.5px;
+}

@@ -15,7 +15,8 @@ export const Pricing_Data = [
         para5: "Priority support",
     },
     {
-        text: "Free",
+        text: "Pro",
+        popular: "Most Popular",
         amount: "$10",
         month: "/month",
         para: "For individual creators",
@@ -27,7 +28,7 @@ export const Pricing_Data = [
         para5: "Priority support",
     },
     {
-        text: "Free",
+        text: "Creator",
         amount: "$25",
         month: "/month",
         para: "For content groups",
