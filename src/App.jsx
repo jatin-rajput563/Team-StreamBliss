@@ -1,8 +1,8 @@
 import "./App.css";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Action from "./components/Action";
 import Everything from "./components/Everything";
-import Pricing from "./components/Pricing";
+// import Pricing from "./components/Pricing";
 import CompareFeature from "./components/CompareFeature";
 import Members from "./components/Members";
 import Ready from "./components/Ready";
@@ -12,10 +12,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Action />
       <Everything />
-      <Pricing />
+      {/* <Pricing /> */}
       <CompareFeature />
       <Members />
       <Ready />
