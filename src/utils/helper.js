@@ -281,26 +281,26 @@ export const FOOTER_DATA = [
     {
         title: "Company",
         links: [
-            { label: "Home", href: "#" },
-            { label: "About", href: "#" },
-            { label: "Features", href: "#" },
-            { label: "How it Works", href: "#" },
-            { label: "Pricing", href: "#" },
+            { label: "Home", link: "#" },
+            { label: "About", link: "#" },
+            { label: "Features", link: "#" },
+            { label: "How it Works", link: "#" },
+            { label: "Pricing", link: "#" },
         ],
     },
     {
         title: "Legal",
         links: [
-            { label: "Privacy Policy", href: "#" },
-            { label: "Terms of Services", href: "#" },
-            { label: "Impressum", href: "#" },
+            { label: "Privacy Policy", link: "#" },
+            { label: "Terms of Services", link: "#" },
+            { label: "Impressum", link: "#" },
         ],
     },
     {
         title: "Support",
         links: [
-            { label: "Help Centre", href: "#" },
-            { label: "System Status", href: "#" },
+            { label: "Help Centre", link: "#" },
+            { label: "System Status", link: "#" },
         ],
     },
 ];
