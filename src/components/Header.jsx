@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import CustomButton from '../components/common/CustomButton'
 import { HEADER_LIST } from '../utils/helper';
 import { ProfileIcon } from '../utils/Icons';
-import headerLogo from '../assets/images/png/header-logo.png'
+import headerLogo from '../assets/images/svg/header-logo.svg';
+import headerEllipse from '../assets/images/png/header-ellipse.png';
+import headerEllipseTwo from '../assets/images/png/header-ellipse-2.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +27,9 @@ const Header = () => {
 
   return (
     <>
-      <div className='px-3'>
+      <div className='px-3 relative'>
+        <img className='w-full max-w-[425px] absolute top-[-135px] -left-49 pointer-events-none' src={headerEllipse} alt="header Ellipse" />
+        <img className='absolute max-w-[238px] max-h-[67px] w-full left-[43%] top-[47px] pointer-events-none' src={headerEllipseTwo} alt="header ellipse" />
         <nav className='max-w-[1140px] mx-auto py-4.5 md:py-[21.5px]'>
           <div className="flex justify-between items-center">
             <a href="/"><img className='pointer-events-none' src={headerLogo} alt="nav-logo" /></a>
@@ -34,7 +38,7 @@ const Header = () => {
               <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
               <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
             </div>
-            <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-7 lg:gap-[35px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
+            <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-7 lg:gap-[35px] mb-0 max-lg:fixed max-lg:w-full max-lg:min-h-screen max-lg:flex-col max-lg:bottom-0 max-lg:-right-full max-lg:top-0 max-lg:z-3 max-lg:bg-black transition-all duration-300 ease-in-out ${menuOpen ? "max-lg:right-0" : ""}`}>
               {HEADER_LIST.map((item, index) => (
                 <li key={index}><a onClick={linkClick} className='text-white header-link leading-[160%] transition-all duration-200 ease-linear' href={item.link}>{item.title}</a></li>
               ))}
