@@ -4,6 +4,7 @@ import Description from "./common/Description";
 import Marquee from "react-fast-marquee";
 import { EveryThing_Data } from "../utils/helper";
 import leftEllipse from '../assets/images/png/action-ellipse.png';
+import CustomBorder from "./common/CustomBorder";
 
 const Everything = () => {
   return (
@@ -19,7 +20,7 @@ const Everything = () => {
               }
               descriptionClass={"text-center pt-[16px]"}
             />
-            <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
+            <CustomBorder />
           </div>
         </div>
         <div className="py-20">

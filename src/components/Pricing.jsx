@@ -5,6 +5,7 @@ import MonthlyPricing from "./MonthlyPricing";
 import YearlyPricing from "./YearlyPricing";
 import leftEllipse from '../assets/images/png/action-ellipse.png';
 import rightEllipse from '../assets/images/png/action-ellipse.png';
+import CustomBorder from "./common/CustomBorder";
 
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState("monthly");
@@ -20,7 +21,7 @@ const Pricing = () => {
             descriptionText={"Choose the plan that works best for you"}
             descriptionClass={"pt-4 text-center text-lg"}
           />
-          <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-8 mx-auto"></div>
+          <CustomBorder />
         </div>
         <div className="flex justify-center mx-auto items-center">
           <div className="inline-flex items-center mx-auto border border-[#FFFFFF3D] rounded-full p-[8px] mb-8 bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">

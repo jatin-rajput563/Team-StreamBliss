@@ -6,6 +6,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { MEMBERS_DATA } from "../utils/helper";
 import memberIcon from '../assets/images/svg/member-icon.svg'
+import CustomBorder from "./common/CustomBorder";
 
 const Members = () => {
   return (
@@ -21,7 +22,7 @@ const Members = () => {
               descriptionClass="text-center mb-5"
               descriptionText="We’ve compiled some helpful reviews for you here."
             />
-            <div className="custom-border max-w-[694px] mx-auto "></div>
+            <CustomBorder />
             <Swiper
               modules={[Autoplay]}
               autoplay={{ delay: 3000 }}

@@ -3,6 +3,7 @@ import { FAQS } from "../utils/helper";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
 import blurLayer from "../assets/images/png/header-ellipse.png";
+import CustomBorder from "./common/CustomBorder";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(0);
@@ -18,6 +19,7 @@ const FAQ = () => {
           descriptionText="Choose the plan that works best for you"
           descriptionClass="!text-center !mb-5"
         />
+        <CustomBorder />
         <div className="footer-border mb-6"></div>
         <div className="bg-transparent">
           {FAQS.map((faq, idx) => (
