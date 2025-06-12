@@ -43,7 +43,7 @@ const Hero = () => {
             <div className='py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CloudIcon /> <span> 2069 uploads today</span></div>
           </div>
         </div>
-        <img className='absolute max-[681px]:bottom-80 max-[1016px]:bottom-60 max-[1250px]:bottom-40 max-[1440px]:bottom-30 bottom-25 left-0 w-full max-h-[425px] pointer-events-none' src={heroLayer} alt="hero-layer" />
+        <img className='absolute bottom-0 max-sm:max-h-[790px] max-md:max-h-[800px] max-[955px]:max-h-[720px] max-[1018px]:max-h-[775px] max-h-[625px] left-0 w-full h-[900px] pointer-events-none' src={heroLayer} alt="hero-layer" />
       </div>
     </div>
   )
