@@ -44,14 +44,14 @@ const Members = () => {
                   <div className="flex flex-col justify-between w-full max-w-[437px] mx-auto h-auto sm:h-[260px] md:h-[290px] lg:h-[320px] xl:h-[260px]">
                     <div>
                       <div className="mb-6">
-                        <img src={memberIcon} alt="" />
+                        <img className="pointer-events-none" src={memberIcon} alt="member-icon" />
                       </div>
                       <p className="text-[#FFFFFF] mb-6 text-base leading-[160%]">
                         {Obj.text}
                       </p>
                     </div>
                     <div className="flex items-center gap-[11px]">
-                      <img src={Obj.image} alt={Obj.name} />
+                      <img className="pointer-events-none" src={Obj.image} alt={Obj.name} />
                       <div className="text-left">
                         <div className="font-medium text-[#FFFFFF] text-base leading-[160%]">
                           {Obj.name}

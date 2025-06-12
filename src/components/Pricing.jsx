@@ -11,8 +11,8 @@ const Pricing = () => {
 
   return (
     <div className="relative text-white pt-16">
-      <img className="max-w-[379px] max-h-[379px] w-full absolute -bottom-25 left-0" src={leftEllipse} alt="" />
-      <img className="max-w-[379px] max-h-[379px] w-full absolute top-0 -right-9 hidden lg:block mix-blend-multiply" src={rightEllipse} alt="" />
+      <img className="max-w-[379px] max-h-[379px] w-full absolute -bottom-25 left-0 pointer-events-none" src={leftEllipse} alt="ellipse" />
+      <img className="max-w-[379px] max-h-[379px] w-full absolute top-0 right-0 hidden xl:block mix-blend-multiply pointer-events-none" src={rightEllipse} alt="ellipse" />
       <div className="max-w-[1140px] mx-auto px-3">
         <div className="text-center mb-12">
           <Heading headingText={"Simple, Transparent Pricing"} />
@@ -28,7 +28,7 @@ const Pricing = () => {
               onClick={() => setActiveTab("monthly")}
               className={`px-6 py-2 rounded-full transition-all duration-300 text-lg font-bold leading-[160%] border ${activeTab === "monthly"
                 ? "text-white bg-[linear-gradient(180deg,_#B851E0_0%,_#EB489B_100%)] border-0"
-                : "text-gray-300 border-0"
+                : "text-gray-300 border-0 cursor-pointer"
                 }`}
             >
               Monthly
@@ -38,7 +38,7 @@ const Pricing = () => {
               onClick={() => setActiveTab("yearly")}
               className={`px-6 py-2 rounded-full flex items-center transition-all duration-300 text-lg font-bold leading-[160%] border ${activeTab === "yearly"
                 ? "text-white bg-[linear-gradient(180deg,_#B851E0_0%,_#EB489B_100%)] border-0"
-                : "text-gray-300 border-0"
+                : "text-gray-300 border-0 cursor-pointer"
                 }`}
             >
               Yearly

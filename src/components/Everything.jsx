@@ -3,11 +3,13 @@ import Heading from "./common/Heading";
 import Description from "./common/Description";
 import Marquee from "react-fast-marquee";
 import { EveryThing_Data } from "../utils/helper";
+import leftEllipse from '../assets/images/png/action-ellipse.png';
 
 const Everything = () => {
   return (
     <>
-      <div className="bg-black text-white max-w-[1920px] w-full mx-auto">
+      <div className="text-white max-w-[1920px] w-full mx-auto relative">
+        <img className="absolute max-w-[379px] max-h-[379px] w-full top-19 -left-10 pointer-events-none" src={leftEllipse} alt="ellipse" />
         <div className="max-w-[1140px] mx-auto px-3">
           <div>
             <Heading headingText={"Everything You Need"} />
