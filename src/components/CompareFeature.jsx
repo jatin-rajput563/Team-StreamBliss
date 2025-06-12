@@ -19,10 +19,10 @@ const CompareFeature = () => {
             <tbody>
               {FEATURE_DATA.map((obj, index) => (
                 <tr key={index} className="border-b border-[#261C27] bg-[#070108BD] ">
-                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] bg-[#0E030F] !text-[#FFFFFF] opacity-70 lg:w-[258px] max-w-[258px]">{obj.feature}</td>
-                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] text-center text-[#FFFFFF] opacity-70 lg:w-[362px]">{obj.Free}</td>
-                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] text-center text-[#FFFFFF] opacity-70">{obj.Pro}</td>
-                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] text-center text-[#FFFFFF] opacity-70">{obj.Creator}</td>
+                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] bg-[#0E030F] !text-[#FFFFFF] opacity-70 lg:w-[258px] max-w-[258px] whitespace-nowrap">{obj.feature}</td>
+                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] text-center text-[#FFFFFF] opacity-70 lg:w-[362px] whitespace-nowrap">{obj.Free}</td>
+                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] text-center text-[#FFFFFF] opacity-70 whitespace-nowrap">{obj.Pro}</td>
+                  <td className="py-3 px-4 sm:px-6 md:px-8 text-sm sm:text-base leading-[160%] text-center text-[#FFFFFF] opacity-70 whitespace-nowrap">{obj.Creator}</td>
                 </tr>
               ))}
             </tbody>
