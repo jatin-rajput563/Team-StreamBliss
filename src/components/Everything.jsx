@@ -7,7 +7,7 @@ import { EveryThing_Data } from "../utils/helper";
 const Everything = () => {
   return (
     <>
-      <div className="min-h-screen bg-black text-white">
+      <div className="bg-black text-white max-w-[1920px] w-full mx-auto">
         <div className="max-w-[1140px] mx-auto px-3">
           <div>
             <Heading headingText={"Everything You Need"} />
@@ -25,7 +25,9 @@ const Everything = () => {
             <div className="flex gap-8 my-[50px]">
               {EveryThing_Data.map((item, index) => {
                 const rotation =
-                  index % 2 === 0 ? "rotate-[8deg] lg:rotate-[15deg]" : "rotate-[-15deg] lg:rotate-[-8deg]";
+                  index % 2 === 0
+                    ? "rotate-[8deg] lg:rotate-[15deg]"
+                    : "rotate-[-15deg] lg:rotate-[-8deg]";
                 const backgroundColor = index % 2 === 0 ? "#1F0C1D" : "#110018";
                 return (
                   <div

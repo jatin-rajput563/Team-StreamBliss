@@ -8,7 +8,7 @@ const Pricing = () => {
   const [activeTab, setActiveTab] = useState("monthly");
 
   return (
-    <div className="bg-black text-white py-16">
+    <div className="bg-black text-white pt-16">
       <div className="max-w-[1140px] mx-auto px-3">
         <div className="text-center mb-12">
           <Heading headingText={"Simple, Transparent Pricing"} />

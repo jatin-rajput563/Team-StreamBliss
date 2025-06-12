@@ -6,7 +6,7 @@ import Description from "./common/Description";
 
 const Ready = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br  px-4">
+    <div className="flex justify-center items-center bg-gradient-to-br  px-4">
       <div className="bg-[#1a1023]/30 rounded-2xl shadow-lg border border-[#2d2236] w-full max-w-[1238px] lg:py-[50px] lg:px-11 py-8 md:px-5 px-3">
         <div className="max-w-[1150px]">
           <div className="flex flex-col md:flex-row gap-8">
