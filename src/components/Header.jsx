@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import CustomButton from '../components/common/CustomButton'
 import { HEADER_LIST } from '../utils/helper';
 import { ProfileIcon } from '../utils/Icons';
-import headerLogo from '../assets/images/png/header-logo.png'
+import headerLogo from '../assets/images/png/header-logo.png';
+import headerEllipse from '../assets/images/png/header-ellipse.png';
+import headerEllipseTwo from '../assets/images/png/header-ellipse-2.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +27,9 @@ const Header = () => {
 
   return (
     <>
-      <div className='px-3'>
+      <div className='px-3 relative'>
+        <img className='w-full max-w-[425px] absolute top-[-135px] -left-49 pointer-events-none' src={headerEllipse} alt="header Ellipse" />
+        <img className='absolute max-w-[238px] max-h-[67px] w-full left-[43%] top-[47px] pointer-events-none' src={headerEllipseTwo} alt="" />
         <nav className='max-w-[1140px] mx-auto py-4.5 md:py-[21.5px]'>
           <div className="flex justify-between items-center">
             <a href="/"><img className='pointer-events-none' src={headerLogo} alt="nav-logo" /></a>

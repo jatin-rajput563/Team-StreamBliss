@@ -13,7 +13,7 @@ const Action = () => {
           <Description descriptionClass={"text-center pt-4"} descriptionText={"See how easy it is to upload and share your videos."} />
           <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
           <div className="flex flex-wrap gap-3 justify-between sm:mt-[27px]">
-            <div className="mx-auto">
+            <div className="max-[1088px]:mx-auto max-w-[558px]">
               {ACTION_DATA.map((item, index) => {
                 const IconComponent = item.icon;
                 return (
@@ -31,7 +31,7 @@ const Action = () => {
                 );
               })}
             </div>
-            <img className="max-h-[478px] mt-3.5 w-full max-w-[494px] mx-auto pointer-events-none" src={actionImg} alt="" />
+            <img className="max-h-[478px] mt-3.5 w-full max-w-[494px] flex justify-end pointer-events-none" src={actionImg} alt="" />
           </div>
         </div>
       </div>
