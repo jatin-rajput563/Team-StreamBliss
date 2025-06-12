@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { FAQS } from "../utils/helper";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
+import blurLayer from '../assets/images/png/blur-layer.png'
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gradient-to-br from-black via-[#1a1023] to-black">
+    <div className="flex justify-center items-center py-[140px] bg-[#E649A208] relative">
       <div className="w-full max-w-[816px] mx-auto px-4">
         <Heading headingText="Frequently Asked Questions" headingClass="!mb-4 !text-white max-md:text-3xl"/>
         <Description descriptionText="Choose the plan that works best for you" descriptionClass="!text-center !mb-5"/>
@@ -37,7 +38,10 @@ const FAQ = () => {
           ))}
         </div>
       </div>
-    </section>
+      <div className="absolute right-0 max-w-[379px] top-[3%]">
+        <img src={blurLayer} alt="blurLayer"  className=""/>
+      </div>
+    </div>
   );
 };
 
