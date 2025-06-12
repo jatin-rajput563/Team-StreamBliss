@@ -49,3 +49,19 @@
         gap: 32px;
     }
 }
+
+.most-popular-badge {
+    width: 103px;
+    height: 24.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.11px;
+    border-radius: 29.12px;
+    border: 1px solid #B851E0;
+    padding: 4.6px 5.11px;
+    background: linear-gradient(180deg, rgba(184, 81, 224, 0.12) 0%, rgba(235, 72, 155, 0.12) 100%);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
