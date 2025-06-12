@@ -10,13 +10,13 @@ import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MonthlyPricing from "./components/MonthlyPricing";
+import BackToTop from "./components/common/BackToTop";
 import YearlyPricing from "./components/YearlyPricing";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Home Route */}
         <Route
           path="/"
           element={
@@ -30,12 +30,11 @@ function App() {
               <Ready />
               <Faq />
               <Footer />
+              <BackToTop />
             </>
           }
         />
-        {/* Monthly Pricing Route */}
         <Route path="/monthlyPricing" element={<MonthlyPricing />} />
-        {/* Yearly Pricing Route */}
         <Route path="/yearlyPricing" element={<YearlyPricing />} />
       </Routes>
     </BrowserRouter>
