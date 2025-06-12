@@ -8,22 +8,36 @@ import Members from "./components/Members";
 import Ready from "./components/Ready";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MonthlyPricing from "./components/MonthlyPricing";
 import BackToTop from "./components/common/BackToTop";
+import YearlyPricing from "./components/YearlyPricing";
 
 function App() {
   return (
-    <>
-      <Hero />
-      <Action />
-      <Everything />
-      <Pricing />
-      <CompareFeature />
-      <Members />
-      <Ready />
-      <Faq />
-      <Footer />
-      <BackToTop />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Action />
+              <Everything />
+              <Pricing />
+              <CompareFeature />
+              <Members />
+              <Ready />
+              <Faq />
+              <Footer />
+              <BackToTop />
+            </>
+          }
+        />
+        <Route path="/monthlyPricing" element={<MonthlyPricing />} />
+        <Route path="/yearlyPricing" element={<YearlyPricing />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
