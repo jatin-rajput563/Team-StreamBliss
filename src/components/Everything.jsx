@@ -23,7 +23,7 @@ const Everything = () => {
             <CustomBorder />
           </div>
         </div>
-        <div className="py-20">
+        <div className="py-10 sm:py-20">
           <Marquee speed={200}>
             <div className="flex gap-8 my-[50px]">
               {EveryThing_Data.map((item, index) => {

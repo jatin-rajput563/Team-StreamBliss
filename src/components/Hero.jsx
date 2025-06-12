@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="mx-auto">
         <Header />
       </div>
-      <div className="px-3 relative pb-[112px]">
+      <div className="px-3 relative pb-10 sm:pb-20 md:pb-[112px]">
         <img className='absolute max-w-[435px] max-h-[435px] -right-40 top-43 mix-blend-multiply hidden lg:block pointer-events-none' src={heroEllipse} alt="ellipse" />
         <div className="max-w-[1140px] mx-auto relative">
           <div className="max-w-[239px] absolute top-45 left-9 hidden lg:block">

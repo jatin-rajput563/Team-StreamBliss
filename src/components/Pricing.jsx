@@ -11,7 +11,7 @@ const Pricing = () => {
   const [activeTab, setActiveTab] = useState("monthly");
 
   return (
-    <div id="pricing" className="relative text-white pt-16">
+    <div id="pricing" className="relative text-white pt-10 sm:pt-16">
       <img className="max-w-[379px] max-h-[379px] w-full absolute -bottom-25 left-0 pointer-events-none" src={leftEllipse} alt="ellipse" />
       <img className="max-w-[379px] max-h-[379px] w-full absolute top-0 right-0 hidden xl:block mix-blend-multiply pointer-events-none" src={rightEllipse} alt="ellipse" />
       <div className="max-w-[1140px] mx-auto px-3">
@@ -24,7 +24,7 @@ const Pricing = () => {
           <CustomBorder />
         </div>
         <div className="flex justify-center mx-auto items-center">
-          <div className="inline-flex items-center mx-auto border border-[#FFFFFF3D] rounded-full p-[8px] mb-8 bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
+          <div className="inline-flex items-center mx-auto border border-[#FFFFFF3D] rounded-full p-[8px] bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
             <button
               onClick={() => setActiveTab("monthly")}
               className={`px-6 py-2 rounded-full transition-all duration-300 text-lg font-bold leading-[160%] border ${activeTab === "monthly"

@@ -3,8 +3,8 @@ import { FEATURE_DATA } from "../utils/helper";
 
 const CompareFeature = () => {
   return (
-    <div className="bg-[#000000] px-4" id="features">
-      <div className="max-w-[1140px] mx-auto lg:pt-[80px] lg:pb-[140px] md:pt-[50px] sm:pt-[30px] pt-[20px] md:pb-[100px] sm:pb-[60px] pb-[30px]">
+    <div className="bg-[#000000] py-10 sm:py-20 md:pt-20 md:pb-35 px-3" id="features">
+      <div className="max-w-[1140px] mx-auto">
         <h4 className="font-semibold text-xl sm:text-2xl leading-[160%] text-[#FFFFFF] mb-6">Compare Features</h4>
         <div className="overflow-x-auto rounded-lg border border-[#261C27] ">
           <table className="min-w-[700px] w-full border-collapse ">
