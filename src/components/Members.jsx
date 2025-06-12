@@ -29,6 +29,7 @@ const Members = () => {
               loop={true}
               spaceBetween={30}
               centeredSlides={true}
+              
               breakpoints={{
                 320: { slidesPerView: 1, spaceBetween: 20 },
                 640: { slidesPerView: 1, spaceBetween: 30 },
