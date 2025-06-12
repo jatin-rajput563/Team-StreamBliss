@@ -4,6 +4,7 @@ import Description from './common/Description';
 import { ACTION_DATA } from '../utils/helper';
 import actionImg from '../assets/images/png/action-img.png';
 import actionEllipse from '../assets/images/png/action-ellipse.png';
+import CustomBorder from "./common/CustomBorder";
 
 const Action = () => {
   return (
@@ -13,7 +14,7 @@ const Action = () => {
         <div className="max-w-[1144px] mx-auto">
           <Heading headingText={"StreamBliss in Action"} />
           <Description descriptionClass={"text-center pt-4"} descriptionText={"See how easy it is to upload and share your videos."} />
-          <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
+          <CustomBorder />
           <div className="flex flex-wrap gap-3 justify-between sm:mt-[27px]">
             <div className="max-[1088px]:mx-auto max-w-[558px]">
               {ACTION_DATA.map((item, index) => {
