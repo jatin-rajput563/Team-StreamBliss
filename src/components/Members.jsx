@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { MEMBERS_DATA } from "../utils/helper";
-import { MEMBER_ICON } from "../utils/Icons";
+import { MemberIcon } from "../utils/Icons";
 
 const Members = () => {
   return (
@@ -32,7 +32,7 @@ const Members = () => {
               {MEMBERS_DATA.map((Obj, index) => (
                 <SwiperSlide key={index} className="transition-all duration-500">
                   <div className="flex flex-col justify-between min-h-[260px] w-full max-w-[437px] mx-auto ">
-                  <div><div className="mb-6"><MEMBER_ICON /></div>
+                  <div><div className="mb-6"><MemberIcon /></div>
                       <p className="text-[#FFFFFF] mb-6 text-base leading-[160%]">{Obj.text}</p></div>
                     <div className="flex items-center gap-[11px]">
                       <img src={Obj.image} alt={Obj.name}/>
