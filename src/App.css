@@ -43,3 +43,9 @@
         right: 0 !important;
     }
 }
+
+@media (min-width: 1024px) {
+    .rfm-marquee-container {
+        gap: 32px;
+    }
+}

@@ -54,7 +54,7 @@ export const EveryThing_Data = [
     {
         icon: ShareX,
         Heading: "Image Upload with ShareX",
-        para: "Upload images instantly using our ShareX configuration for seamless sharing."
+        para: "Upload images instantly using our ShareX configuration for seamless."
     },
     {
         icon: Sharing,
@@ -75,6 +75,11 @@ export const EveryThing_Data = [
         icon: Sharing,
         Heading: "Cross-platform Sharing",
         para: "Easily share your content across all major social platforms. "
+    },
+    {
+        icon: Streaming,
+        Heading: "HD Streaming",
+        para: "Stream your content in high quality without buffering."
     },
     {
         icon: Community,

@@ -2,7 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Action from "./components/Action";
 import Everything from "./components/Everything";
-import Pricing from "./components/Pricing";
+// import Pricing from "./components/Pricing";
 import CompareFeature from "./components/CompareFeature";
 import Members from "./components/Members";
 import Ready from "./components/Ready";
@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Action />
       <Everything />
-      <Pricing />
+      {/* <Pricing /> */}
       <CompareFeature />
       <Members />
       <Ready />

@@ -16,16 +16,15 @@ const Pricing = () => {
           />
           <div className="max-w-[649px] h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-8 mx-auto"></div>
         </div>
-
         <div className="text-center mb-12">
           <div className="inline-flex items-center border border-[#FFFFFF3D] rounded-full p-1 mb-8">
             <button
               onClick={() => navigate("/")}
-              className="px-6 py-2 rounded-full text-gray-300 hover:text-white transition-all duration-300"
+              className="px-6 py-2 rounded-full text-gray-300 hover:text-white hover:bg-purple-600 transition-all duration-300"
             >
               Monthly
             </button>
-            <button className="px-6 py-2 rounded-full bg-purple-600 text-white transition-all duration-300">
+            <button className="px-6 py-2 rounded-full hover:bg-purple-600 text-white transition-all duration-300">
               Yearly
               <span className="ml-2 text-xs bg-purple-500 px-2 py-1 rounded-full">
                 SAVE 20%
@@ -33,7 +32,6 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-
         <div className="flex flex-row flex-wrap -mx-3 justify-center mt-[100px]">
           {Pricing_Data.map((item, index) => (
             <div className="w-full lg:w-1/3 max-w-sm" key={index}>
