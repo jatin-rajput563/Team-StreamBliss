@@ -25,17 +25,17 @@ const Members = () => {
               breakpoints={{
                 320: { slidesPerView: 1, spaceBetween: 20 },
                 640: { slidesPerView: 1, spaceBetween: 30 },
-                768: { slidesPerView: 2, spaceBetween: 20 },
-                1024: { slidesPerView: 3, spaceBetween: 0 },
+                768: { slidesPerView: 2, spaceBetween: 40 },
+                1024: { slidesPerView: 3, spaceBetween: 60 },
               }}
               className="mx-auto mt-[50px] h-full">
               {MEMBERS_DATA.map((Obj, index) => (
                 <SwiperSlide key={index} className="transition-all duration-500">
-                  <div className="flex flex-col justify-between min-h-[260px] w-full max-w-[437px] mx-auto ">
-                  <div><div className="mb-6"><MemberIcon /></div>
+                  <div className="flex flex-col justify-between w-full max-w-[437px] mx-auto h-auto sm:h-[260px] md:h-[290px] lg:h-[320px] xl:h-[260px]">
+                    <div><div className="mb-6"><MemberIcon /></div>
                       <p className="text-[#FFFFFF] mb-6 text-base leading-[160%]">{Obj.text}</p></div>
                     <div className="flex items-center gap-[11px]">
-                      <img src={Obj.image} alt={Obj.name}/>
+                      <img src={Obj.image} alt={Obj.name} />
                       <div className="text-left">
                         <div className="font-medium text-[#FFFFFF] text-base leading-[160%]">{Obj.name}</div>
                         <div className="text-sm text-[#FFFFFF] opacity-70 leading-[160%]">{Obj.role}</div>
