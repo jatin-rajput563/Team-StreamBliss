@@ -170,5 +170,49 @@ export const ACTION_DATA = [
         title: "Easy Sharing",
         description: "Share your content with just a few clicks."
     },
-]
+];
 
+export const FOOTER_DATA = [
+    {
+        title: "Company",
+        links: [
+            { label: "Home", href: "#" },
+            { label: "About", href: "#" },
+            { label: "Features", href: "#" },
+            { label: "How it Works", href: "#" },
+            { label: "Pricing", href: "#" },
+        ],
+    },
+    {
+        title: "Legal",
+        links: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Services", href: "#" },
+            { label: "Impressum", href: "#" },
+        ],
+    },
+    {
+        title: "Support",
+        links: [
+            { label: "Help Centre", href: "#" },
+            { label: "System Status", href: "#" },
+        ],
+    },
+];
+export const FAQS = [
+    {
+        question: "Can I switch plans later?",
+        answer:
+            "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.",
+    },
+    {
+        question: "What payment methods do you accept?",
+        answer:
+            "We accept all major credit cards and PayPal.",
+    },
+    {
+        question: "How do I cancel my subscription?",
+        answer:
+            "You can cancel your subscription at any time from your account settings.",
+    },
+];
