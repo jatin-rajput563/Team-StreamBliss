@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CustomButton from '../components/common/CustomButton'
 import { HEADER_LIST } from '../utils/helper';
 import { ProfileIcon } from '../utils/Icons';
-import headerLogo from '../assets/images/png/header-logo.png';
+import headerLogo from '../assets/images/svg/header-logo.svg';
 import headerEllipse from '../assets/images/png/header-ellipse.png';
 import headerEllipseTwo from '../assets/images/png/header-ellipse-2.png';
 
