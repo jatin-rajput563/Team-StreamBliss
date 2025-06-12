@@ -5,14 +5,16 @@ import CustomButton from './common/CustomButton'
 import heroImg from '../assets/images/png/hero-img.png'
 import heroLayer from '../assets/images/png/hero-layer.png'
 import { CameraIcon, UploadIcon, CloudIcon, StorageCloud, LeftArrow, RightArrow, EncryptionIcon } from '../utils/Icons'
+import heroEllipse from '../assets/images/png/header-ellipse.png';
 
 const Hero = () => {
   return (
-    <div className='bg-[url(src/assets/images/png/hero-bg-img.png)] bg-cover bg-center bg-no-repeat'>
+    <div className='bg-[url(src/assets/images/png/hero-bg-img.png)] bg-cover bg-center bg-no-repeat overflow-hidden'>
       <div className="mx-auto">
         <Header />
       </div>
       <div className="px-3 relative pb-[112px]">
+        <img className='absolute max-w-[435px] max-h-[435px] -right-40 top-43 mix-blend-multiply hidden lg:block pointer-events-none' src={heroEllipse} alt="" />
         <div className="max-w-[1140px] mx-auto relative">
           <div className="max-w-[239px] absolute top-45 left-9 hidden lg:block">
             <div className="flex  justify-end"><LeftArrow /></div>
