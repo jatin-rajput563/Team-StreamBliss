@@ -1,51 +1,7 @@
-<<<<<<< HEAD
-// import easyUpload from '../assets/images/svg/easy-upload.svg'
-// import fastDelivery from '../assets/images/svg/fast-delivery.svg'
-// import alwaysOnline from '../assets/images/svg/always-online.svg'
-import secureStorage from '../assets/images/svg/secure-storage.svg'
-import protectedIcon from '../assets/images/svg/ssl-protection.svg'
-import compliantIcon from '../assets/images/svg/gdpr-compliant.svg'
-import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sharing, Streaming, EasyUploadIcon , FastDeliveryIcon , AlwaysOnlineIcon , SecureStorageIcon, ProtectedIcon, CompliantIcon} from "./Icons";
-
-
-export const FEATURES = [
-    {
-        icon: EasyUploadIcon,
-        title: "Easy Upload",
-        description: "Drag & drop your files in seconds",
-    },
-    {
-        icon: FastDeliveryIcon,
-        title: "Fast Delivery",
-        description: "Global CDN for instant access",
-    },
-    {
-        icon: AlwaysOnlineIcon,
-        title: "Always Online",
-        description: "99.9% uptime guarantee",
-    },
-];
-
-export const BADGES = [
-    {
-        icon: SecureStorageIcon,
-        title: "Secure Storage",
-        description: "End-to-end encryption for your data",
-    },
-    {
-        icon: ProtectedIcon,
-        title: "SSL Protected",
-        description: "256-bit SSL encryption",
-    },
-    {
-        icon: CompliantIcon,
-        title: "GDPR Compliant",
-        description: "Your data is protected by EU law",
-    },
-];
-=======
+import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sharing, Streaming, EffortlessIcon, FastuploadIcon, SecureIcon, ShareIcon, ProtectedIcon, CompliantIcon } from "./Icons";
 import memberBoy from '../assets/images/png/member-boy.png'
 import memberGirl from '../assets/images/png/member-girl.png'
+
 export const FEATURE_DATA = [
     {
         feature: "Upload limit",
@@ -103,17 +59,20 @@ export const MEMBERS_DATA = [
         role: "Creative Director",
         image: memberGirl,
     },
-   
-  ];
 
-import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sharing, Streaming } from "./Icons";
->>>>>>> 6c1525210a725fd6ea3db0e2e2da2007f32a1d52
-
+];
 export const Pricing_Data = [
     {
-        img: secureStorage,
-        title: "Secure Storage",
-        description: "End-to-end encryption for your data",
+        text: "Free",
+        amount: "$00",
+        month: "/month",
+        para: "Perfect for personal use",
+        icon: CheckArrow,
+        para1: "250mb per upload limit",
+        para2: "Unlimited video retention",
+        para3: "Advanced analytics",
+        para4: "Ad-free content delivery",
+        para5: "Priority support",
     },
     {
         text: "Pro",
@@ -142,6 +101,41 @@ export const Pricing_Data = [
     },
 ];
 
+export const FEATURES = [
+    {
+        img: FastuploadIcon,
+        title: "Easy Upload",
+        description: "Drag & drop your files in seconds",
+    },
+    {
+        img: SecureIcon,
+        title: "Fast Delivery",
+        description: "Global CDN for instant access",
+    },
+    {
+        img: ShareIcon,
+        title: "Always Online",
+        description: "99.9% uptime guarantee",
+    },
+];
+
+export const BADGES = [
+    {
+        img: SecureIcon,
+        title: "Secure Storage",
+        description: "End-to-end encryption for your data",
+    }, {
+        img: ProtectedIcon,
+        title: "SSL Protected",
+        description: "256-bit SSL encryption",
+    },
+    {
+        img: CompliantIcon,
+        title: "GDPR Compliant",
+        description: "Your data is protected by EU law",
+    },
+];
+
 export const EveryThing_Data = [
     {
         icon: Streaming,
@@ -156,7 +150,7 @@ export const EveryThing_Data = [
     {
         icon: ShareX,
         Heading: "Image Upload with ShareX",
-        para: "Upload images instantly using our ShareX configuration for seamless sharing."
+        para: "Upload images instantly using our ShareX configuration for seamless."
     },
     {
         icon: Sharing,
@@ -177,6 +171,11 @@ export const EveryThing_Data = [
         icon: Sharing,
         Heading: "Cross-platform Sharing",
         para: "Easily share your content across all major social platforms. "
+    },
+    {
+        icon: Streaming,
+        Heading: "HD Streaming",
+        para: "Stream your content in high quality without buffering."
     },
     {
         icon: Community,
@@ -209,7 +208,29 @@ export const HEADER_LIST = [
         link: "#pricing"
     },
 ];
-<<<<<<< HEAD
+
+export const ACTION_DATA = [
+    {
+        icon: EffortlessIcon,
+        title: "Effortless Uploads",
+        description: "Drag, drop, and your video is ready to share in seconds."
+    },
+    {
+        icon: FastuploadIcon,
+        title: "Fast Upload",
+        description: "Upload speeds up to 10x faster with our optimized infrastructure."
+    },
+    {
+        icon: SecureIcon,
+        title: "Secure Storage",
+        description: "End-to-end encryption ensures your content remains protected."
+    },
+    {
+        icon: ShareIcon,
+        title: "Easy Sharing",
+        description: "Share your content with just a few clicks."
+    },
+];
 
 export const FOOTER_DATA = [
     {
@@ -238,7 +259,6 @@ export const FOOTER_DATA = [
         ],
     },
 ];
-
 export const FAQS = [
     {
         question: "Can I switch plans later?",
@@ -256,5 +276,3 @@ export const FAQS = [
             "You can cancel your subscription at any time from your account settings.",
     },
 ];
-=======
->>>>>>> 6c1525210a725fd6ea3db0e2e2da2007f32a1d52
