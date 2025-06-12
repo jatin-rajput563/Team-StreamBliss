@@ -1,25 +1,25 @@
-import easyUpload from '../assets/images/svg/easy-upload.svg'
-import fastDelivery from '../assets/images/svg/fast-delivery.svg'
-import alwaysOnline from '../assets/images/svg/always-online.svg'
+// import easyUpload from '../assets/images/svg/easy-upload.svg'
+// import fastDelivery from '../assets/images/svg/fast-delivery.svg'
+// import alwaysOnline from '../assets/images/svg/always-online.svg'
 import secureStorage from '../assets/images/svg/secure-storage.svg'
 import protectedIcon from '../assets/images/svg/ssl-protection.svg'
 import compliantIcon from '../assets/images/svg/gdpr-compliant.svg'
-import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sharing, Streaming } from "./Icons";
+import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sharing, Streaming, EasyUploadIcon , FastDeliveryIcon , AlwaysOnlineIcon , SecureStorageIcon, ProtectedIcon, CompliantIcon} from "./Icons";
 
 
 export const FEATURES = [
     {
-        img: easyUpload,
+        icon: EasyUploadIcon,
         title: "Easy Upload",
         description: "Drag & drop your files in seconds",
     },
     {
-        img: fastDelivery,
+        icon: FastDeliveryIcon,
         title: "Fast Delivery",
         description: "Global CDN for instant access",
     },
     {
-        img: alwaysOnline,
+        icon: AlwaysOnlineIcon,
         title: "Always Online",
         description: "99.9% uptime guarantee",
     },
@@ -27,17 +27,17 @@ export const FEATURES = [
 
 export const BADGES = [
     {
-        img: secureStorage,
+        icon: SecureStorageIcon,
         title: "Secure Storage",
         description: "End-to-end encryption for your data",
     },
     {
-        img: protectedIcon,
+        icon: ProtectedIcon,
         title: "SSL Protected",
         description: "256-bit SSL encryption",
     },
     {
-        img: compliantIcon,
+        icon: CompliantIcon,
         title: "GDPR Compliant",
         description: "Your data is protected by EU law",
     },
@@ -141,5 +141,51 @@ export const HEADER_LIST = [
     {
         title: "Pricing",
         link: "#pricing"
+    },
+];
+
+export const FOOTER_DATA = [
+    {
+        title: "Company",
+        links: [
+            { label: "Home", href: "#" },
+            { label: "About", href: "#" },
+            { label: "Features", href: "#" },
+            { label: "How it Works", href: "#" },
+            { label: "Pricing", href: "#" },
+        ],
+    },
+    {
+        title: "Legal",
+        links: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Services", href: "#" },
+            { label: "Impressum", href: "#" },
+        ],
+    },
+    {
+        title: "Support",
+        links: [
+            { label: "Help Centre", href: "#" },
+            { label: "System Status", href: "#" },
+        ],
+    },
+];
+
+export const FAQS = [
+    {
+        question: "Can I switch plans later?",
+        answer:
+            "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.",
+    },
+    {
+        question: "What payment methods do you accept?",
+        answer:
+            "We accept all major credit cards and PayPal.",
+    },
+    {
+        question: "How do I cancel my subscription?",
+        answer:
+            "You can cancel your subscription at any time from your account settings.",
     },
 ];

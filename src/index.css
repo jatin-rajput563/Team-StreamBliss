@@ -17,3 +17,10 @@
     mask-composite: exclude;
     pointer-events: none;
 }
+
+.footer-border {
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #000000 0%, #FFFFFF 54.03%, #000000 100%);
+    border-image-slice: 1;
+    border-bottom: none;
+}
