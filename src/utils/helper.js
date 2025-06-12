@@ -34,6 +34,7 @@ export const FEATURE_DATA = [
         Creator: "Yes",
     },
 ];
+
 export const MEMBERS_DATA = [
     {
         text: "Images, videos, docs — all in one place, perfectly organized. I used to juggle between Dropbox, Google Drive, and WeTransfer. Now it’s just one tab, and it works like magic.",
@@ -61,6 +62,7 @@ export const MEMBERS_DATA = [
     },
 
 ];
+
 export const Pricing_Data = [
     {
         text: "Free",
@@ -92,6 +94,49 @@ export const Pricing_Data = [
         amount: "$25",
         month: "/month",
         para: "For content groups",
+        icon: CheckArrow,
+        para1: "Unlimited video size",
+        para2: "Unlimited video retention",
+        para3: "Advanced analytics",
+        para4: "Ad-free content delivery",
+        para5: "Priority support",
+    },
+];
+
+export const YearlyPricing_Data = [
+    {
+        text: "Free",
+        amount: "$0",
+        duration: "/year",
+        para: "Perfect for personal use",
+        save: "No savings on Free plan",
+        icon: CheckArrow,
+        para1: "250mb per upload limit",
+        para2: "Unlimited video retention",
+        para3: "Advanced analytics",
+        para4: "Ad-free content delivery",
+        para5: "Priority support",
+    },
+    {
+        text: "Pro",
+        popular: "Most Popular",
+        amount: "$96",
+        duration: "/year",
+        para: "For individual creators",
+        save: "Save 20% with yearly billing",
+        icon: CheckArrow,
+        para1: "Up to 10GB per video",
+        para2: "Unlimited video retention",
+        para3: "Advanced analytics",
+        para4: "Ad-free content delivery",
+        para5: "Priority support",
+    },
+    {
+        text: "Creator",
+        amount: "$240",
+        duration: "/year",
+        para: "For content groups",
+        save: "Save 20% with yearly billing",
         icon: CheckArrow,
         para1: "Unlimited video size",
         para2: "Unlimited video retention",
@@ -259,6 +304,7 @@ export const FOOTER_DATA = [
         ],
     },
 ];
+
 export const FAQS = [
     {
         question: "Can I switch plans later?",

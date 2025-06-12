@@ -96,6 +96,7 @@
     mask-composite: exclude;
     pointer-events: none;
 }
+
 .swiper-slide {
     transition: all 0.5s ease;
     opacity: 0.5;
@@ -103,4 +104,30 @@
 .swiper-slide-active {
     opacity: 1 !important;
     filter: blur(0px) !important;
+}
+
+.pricing-border:hover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    padding: 1px;
+    background: linear-gradient(180deg, rgba(184, 81, 224, 0.5) 0%, rgba(235, 72, 155, 0.5) 100%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+.ready-box-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: linear-gradient(180deg, rgba(184, 81, 224, 0.2) 0%, rgba(235, 72, 155, 0.2) 100%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
 }
