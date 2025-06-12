@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-border opacity-30 mt-12 pt-4 text-center text-white/70 text-sm">
-          © 2025 StreamBliss. All rights reserved.
+          ©  StreamBliss. All rights reserved.
         </div>
       </div>
     </>
