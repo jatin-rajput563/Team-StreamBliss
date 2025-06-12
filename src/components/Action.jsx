@@ -9,7 +9,7 @@ import CustomBorder from "./common/CustomBorder";
 const Action = () => {
   return (
     <>
-      <div className="px-3 relative pb-35">
+      <div id="home" className="px-3 relative pb-35">
         <img className="absolute max-w-[333px] max-h-[333px] w-full -top-27 -left-20 pointer-events-none" src={actionEllipse} alt="ellipse" />
         <div className="max-w-[1144px] mx-auto">
           <Heading headingText={"StreamBliss in Action"} />

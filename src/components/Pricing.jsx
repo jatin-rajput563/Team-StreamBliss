@@ -11,7 +11,7 @@ const Pricing = () => {
   const [activeTab, setActiveTab] = useState("monthly");
 
   return (
-    <div className="relative text-white pt-16">
+    <div id="pricing" className="relative text-white pt-16">
       <img className="max-w-[379px] max-h-[379px] w-full absolute -bottom-25 left-0 pointer-events-none" src={leftEllipse} alt="ellipse" />
       <img className="max-w-[379px] max-h-[379px] w-full absolute top-0 right-0 hidden xl:block mix-blend-multiply pointer-events-none" src={rightEllipse} alt="ellipse" />
       <div className="max-w-[1140px] mx-auto px-3">
