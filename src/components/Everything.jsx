@@ -23,10 +23,10 @@ const Everything = () => {
         <Marquee>
           {EveryThing_Data.map((item, index) => (
             <div className="">
-              {/* <img src=<item. alt="" /> */}
+               {/* <img src=<item.> alt="" /> */}
             </div>
           ))}
-        </Marquee>
+        </Marquee> 
       </div>
     </>
   );
