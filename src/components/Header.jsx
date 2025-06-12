@@ -29,7 +29,7 @@ const Header = () => {
     <>
       <div className='px-3 relative'>
         <img className='w-full max-w-[425px] absolute top-[-135px] -left-49 pointer-events-none' src={headerEllipse} alt="header Ellipse" />
-        <img className='absolute max-w-[238px] max-h-[67px] w-full left-[43%] top-[47px] pointer-events-none' src={headerEllipseTwo} alt="" />
+        <img className='absolute max-w-[238px] max-h-[67px] w-full left-[43%] top-[47px] pointer-events-none' src={headerEllipseTwo} alt="header ellipse" />
         <nav className='max-w-[1140px] mx-auto py-4.5 md:py-[21.5px]'>
           <div className="flex justify-between items-center">
             <a href="/"><img className='pointer-events-none' src={headerLogo} alt="nav-logo" /></a>

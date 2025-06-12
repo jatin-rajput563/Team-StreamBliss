@@ -1,10 +1,10 @@
-import React from 'react'
-import Header from './Header'
-import Description from './common/Description'
-import CustomButton from './common/CustomButton'
-import heroImg from '../assets/images/png/hero-img.png'
-import heroLayer from '../assets/images/png/hero-layer.png'
-import { CameraIcon, UploadIcon, CloudIcon, StorageCloud, LeftArrow, RightArrow, EncryptionIcon } from '../utils/Icons'
+import React from 'react';
+import Header from './Header';
+import Description from './common/Description';
+import CustomButton from './common/CustomButton';
+import heroImg from '../assets/images/png/hero-img.png';
+import heroLayer from '../assets/images/png/hero-layer.png';
+import { CameraIcon, UploadIcon, CloudIcon, StorageCloud, LeftArrow, RightArrow, EncryptionIcon } from '../utils/Icons';
 import heroEllipse from '../assets/images/png/header-ellipse.png';
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
         <Header />
       </div>
       <div className="px-3 relative pb-[112px]">
-        <img className='absolute max-w-[435px] max-h-[435px] -right-40 top-43 mix-blend-multiply hidden lg:block pointer-events-none' src={heroEllipse} alt="" />
+        <img className='absolute max-w-[435px] max-h-[435px] -right-40 top-43 mix-blend-multiply hidden lg:block pointer-events-none' src={heroEllipse} alt="ellipse" />
         <div className="max-w-[1140px] mx-auto relative">
           <div className="max-w-[239px] absolute top-45 left-9 hidden lg:block">
             <div className="flex  justify-end"><LeftArrow /></div>
@@ -36,14 +36,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="max-w-[994px] mx-auto">
-          <img className='mx-auto pt-17 pointer-events-none' src={heroImg} alt="" />
+          <img className='mx-auto pt-17 pointer-events-none' src={heroImg} alt="hero-img" />
           <div className="flex flex-wrap max-lg:gap-4 lg:justify-between z-1 relative justify-center pt-4">
             <div className='py-[14px] px-[87px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CameraIcon /> <span>461 watching</span></div>
             <div className='p-[14px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><UploadIcon /> <span>2,000+ Creators uploading now</span></div>
             <div className='py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CloudIcon /> <span> 2069 uploads today</span></div>
           </div>
         </div>
-        <img className='absolute max-[681px]:bottom-80 max-[1016px]:bottom-60 max-[1250px]:bottom-40 max-[1440px]:bottom-30 bottom-25 left-0 w-full max-h-[425px] pointer-events-none' src={heroLayer} alt="" />
+        <img className='absolute max-[681px]:bottom-80 max-[1016px]:bottom-60 max-[1250px]:bottom-40 max-[1440px]:bottom-30 bottom-25 left-0 w-full max-h-[425px] pointer-events-none' src={heroLayer} alt="hero-layer" />
       </div>
     </div>
   )
