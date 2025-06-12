@@ -34,7 +34,7 @@ const Action = () => {
                 );
               })}
             </div>
-            <img className="max-h-[478px] mt-3.5 w-full max-w-[494px] flex justify-end pointer-events-none" src={actionImg} alt="upload img" />
+            <img className="max-h-[478px] mt-3.5 w-full max-w-[494px] max-xl:mx-auto xl:flex xl:justify-end pointer-events-none" src={actionImg} alt="upload img" />
           </div>
         </div>
       </div>
