@@ -1,13 +1,12 @@
 import React from "react";
 import { FOOTER_DATA } from "../utils/helper";
 import footerLogo from '../assets/images/png/header-logo.png'
-import Heading from "./common/Heading";
 import Description from "./common/Description";
 
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#110018] text-gray-200 pt-12 pb-6 px-6">
+      <div className="bg-[#110018] text-gray-200 pt-20 pb-6 px-6">
         <div className="max-w-[1138px] mx-auto flex flex-col md:flex-wrap lg:flex-row justify-between gap-12">
           <div className="lg:w-1/3">
             <div className="flex items-center mb-4">
@@ -35,7 +34,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="footer-border opacity-30 mt-12 pt-4 text-center text-gray-400 text-sm">
+        <div className="footer-border opacity-30 mt-12 pt-4 text-center text-white/70 text-sm">
           © 2025 StreamBliss. All rights reserved.
         </div>
       </div>

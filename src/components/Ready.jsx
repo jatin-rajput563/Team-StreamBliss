@@ -7,8 +7,8 @@ import Description from "./common/Description";
 const Ready = () => {
   return (
     <div className="flex justify-center items-center px-4 ">
-      <div className="bg-[#E649A208] rounded-2xl shadow-lg gradient-border w-full max-w-[1238px] lg:py-[50px] lg:px-11 py-8 md:px-5 px-3">
-        <div className="max-w-[1150px] ">
+      <div className="bg-[#E649A208] rounded-2xl shadow-lg gradient-border w-full max-w-[1238px] lg:py-[50px] lg:px-16 py-8 md:px-5 px-3">
+        <div className="max-w-[1110px] ">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="flex-1 flex flex-col justify-center">
               <Heading headingText="Ready to Get Started?" headingClass="!mb-4 !text-left !text-white" />
@@ -19,7 +19,7 @@ const Ready = () => {
               {FEATURES.map((feature) => (
                 <div
                   key={feature.title}
-                  className="flex items-center gap-4 bg-[#22162b] border max-w-[558px] border-[#2d2236] rounded-xl p-4"
+                  className="flex items-center gap-4 bg-[#110018]/50 border max-w-[558px] border-[#2d2236] rounded-xl p-4"
                 >
                   <div className="flex items-center justify-center cursor-pointer">
                     {feature.icon && <feature.icon className="size-12" />}

@@ -8,7 +8,7 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <div className="flex justify-center items-center py-[140px] bg-[#E649A208] relative">
+    <div className="flex justify-center items-center py-[130px] bg-[#E649A208] relative">
       <div className="w-full max-w-[816px] mx-auto px-4">
         <Heading headingText="Frequently Asked Questions" headingClass="!mb-4 !text-white max-md:text-3xl"/>
         <Description descriptionText="Choose the plan that works best for you" descriptionClass="!text-center !mb-5"/>
