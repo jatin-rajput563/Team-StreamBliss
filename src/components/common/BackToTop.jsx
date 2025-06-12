@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { TopArrow } from "../../utils/Icons";
+import React, { useEffect, useState } from 'react';
+import { TopArrow } from '../../utils/Icons';
 
 const BackToTop = () => {
   const [showButton, setShowButton] = useState(false);
