@@ -928,6 +928,7 @@ export const TopArrow = () => (
     />
   </svg>
 );
+
 export const EasyUploadIcon = () => (
   <svg
     width="50"
@@ -1096,6 +1097,7 @@ export const AlwaysOnlineIcon = () => (
     </defs>
   </svg>
 );
+
 export const SecureStorageIcon = () => (
   <svg
     width="50"
@@ -1160,6 +1162,7 @@ export const ProtectedIcon = () => (
     <path d="M9.875 16.067H12.1295V18.875H9.875V16.067Z" fill="white" />
   </svg>
 );
+
 export const CompliantIcon = () => (
   <svg
     width="30"
