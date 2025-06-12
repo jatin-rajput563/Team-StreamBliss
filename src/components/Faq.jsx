@@ -23,9 +23,8 @@ const FAQ = () => {
           {FAQS.map((faq, idx) => (
             <div key={faq.question} className="border-b border-white/20">
               <button
-                className={`w-full flex justify-between items-center py-6 focus:outline-none cursor-pointer ${
-                  openIndex === idx ? "pb-4" : ""
-                }`}
+                className={`w-full flex justify-between items-center py-6 focus:outline-none cursor-pointer ${openIndex === idx ? "pb-4" : ""
+                  }`}
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
               >
                 <span className="text-left text-2xl font-semibold text-white">
@@ -37,9 +36,8 @@ const FAQ = () => {
               </button>
 
               <div
-                className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  openIndex === idx ? "max-h-40 pb-6" : "max-h-0"
-                } text-white/70`}
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === idx ? "max-h-40 pb-6" : "max-h-0"
+                  } text-white/70`}
               >
                 <div className="pb-4">{faq.answer}</div>
               </div>

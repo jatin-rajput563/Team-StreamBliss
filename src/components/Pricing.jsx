@@ -22,22 +22,20 @@ const Pricing = () => {
           <div className="inline-flex items-center mx-auto border border-[#FFFFFF3D] rounded-full p-[8px] mb-8 bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
             <button
               onClick={() => setActiveTab("monthly")}
-              className={`px-6 py-2 rounded-full transition-all duration-300 text-lg font-bold leading-[160%] border ${
-                activeTab === "monthly"
+              className={`px-6 py-2 rounded-full transition-all duration-300 text-lg font-bold leading-[160%] border ${activeTab === "monthly"
                   ? "text-white bg-[linear-gradient(180deg,_#B851E0_0%,_#EB489B_100%)] border-0"
                   : "text-gray-300 border-0"
-              }`}
+                }`}
             >
               Monthly
             </button>
 
             <button
               onClick={() => setActiveTab("yearly")}
-              className={`px-6 py-2 rounded-full flex items-center transition-all duration-300 text-lg font-bold leading-[160%] border ${
-                activeTab === "yearly"
+              className={`px-6 py-2 rounded-full flex items-center transition-all duration-300 text-lg font-bold leading-[160%] border ${activeTab === "yearly"
                   ? "text-white bg-[linear-gradient(180deg,_#B851E0_0%,_#EB489B_100%)] border-0"
                   : "text-gray-300 border-0"
-              }`}
+                }`}
             >
               Yearly
               <span className="ml-2 text-xs flex items-center justify-center w-[83px] h-[24px] gap-[5px] rounded-[34px] border border-white pt-[1px] pr-[8px] pb-[1px] pl-[8px] bg-[#D04DBF1F]">

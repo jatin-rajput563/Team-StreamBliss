@@ -44,7 +44,7 @@ const Members = () => {
                   <div className="flex flex-col justify-between w-full max-w-[437px] mx-auto h-auto sm:h-[260px] md:h-[290px] lg:h-[320px] xl:h-[260px]">
                     <div>
                       <div className="mb-6">
-                       <img src={memberIcon} alt="" />
+                        <img src={memberIcon} alt="" />
                       </div>
                       <p className="text-[#FFFFFF] mb-6 text-base leading-[160%]">
                         {Obj.text}
