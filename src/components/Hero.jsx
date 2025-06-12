@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
           <div className="max-w-[264px] absolute max-[1140px]:top-42 top-52 right-6 hidden lg:block">
             <div className="flex  justify-start"><RightArrow /></div>
-            <div className='flex max-w-[264px] bg-[linear-gradient(180deg,rgba(184,81,224,0.08)_0%,rgba(235,72,155,0.08)_100%)] rounded-[95px] items-center gap-2 py-1.5 px-5.5 border border-[#8B858D]'><EncryptionIcon /> <span className='text-[#FCFCFC] font-semibold whitespace-nowrap'>End-to-End Encryption</span></div>
+            <div className='flex max-w-[264px] bg-[linear-gradient(180deg,rgba(184,81,224,0.08)_0%,rgba(235,72,155,0.08)_100%)] rounded-[95px] items-center gap-2 py-[7.5px] px-5.5 border border-[#8B858D]'><EncryptionIcon /> <span className='text-[#FCFCFC] font-semibold whitespace-nowrap'>End-to-End Encryption</span></div>
           </div>
           <div className="justify-center flex pt-17">
             <h1 className='font-bold text-[35px] sm:text-[52px] md:text-[58px] leading-[130%] text-center max-w-[576px] text-white'>The Creative Cloud for Everyone</h1>
