@@ -6,7 +6,7 @@ import Description from "./common/Description";
 const Footer = () => {
   return (
     <>
-    <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
+      <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
       <div className="bg-[#110018] text-gray-200 pt-10 sm:pt-20 pb-6 px-6">
         <div className="max-w-[1138px] mx-auto flex flex-col md:flex-wrap lg:flex-row justify-between gap-12">
           <div className="lg:w-1/3">
