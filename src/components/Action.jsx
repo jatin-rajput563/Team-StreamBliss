@@ -1,13 +1,15 @@
 import React from "react";
 import Heading from "./common/Heading";
-import Description from './common/Description'
+import Description from './common/Description';
 import { ACTION_DATA } from '../utils/helper';
-import actionImg from '../assets/images/png/action-img.png'
+import actionImg from '../assets/images/png/action-img.png';
+import actionEllipse from '../assets/images/png/action-ellipse.png';
 
 const Action = () => {
   return (
     <>
-      <div className="px-3">
+      <div className="px-3 relative">
+        <img className="absolute max-w-[333px] max-h-[333px] w-full -top-27 -left-20 pointer-events-none" src={actionEllipse} alt="ellipse" />
         <div className="max-w-[1144px] mx-auto">
           <Heading headingText={"StreamBliss in Action"} />
           <Description descriptionClass={"text-center pt-4"} descriptionText={"See how easy it is to upload and share your videos."} />
