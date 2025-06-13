@@ -13,7 +13,7 @@ export const COMPARE_FEATURE_DATA = [
         feature: "Video retention",
         free: "180 Days",
         pro: "Unlimited",
-        creator:"Unlimited",
+        creator: "Unlimited",
     },
     {
         feature: "Basic analytics",
