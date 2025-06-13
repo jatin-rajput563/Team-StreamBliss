@@ -2,36 +2,36 @@ import { Analytics, CheckArrow, Cloud, Community, Editing, Security, ShareX, Sha
 import memberBoy from '../assets/images/png/member-boy.png'
 import memberGirl from '../assets/images/png/member-girl.png'
 
-export const FEATURE_DATA = [
+export const COMPARE_FEATURE_DATA = [
     {
         feature: "Upload limit",
-        Free: "250MB",
-        Pro: "10GB",
-        Creator: "Unlimited",
+        free: "250MB",
+        pro: "10GB",
+        creator: "Unlimited",
     },
     {
         feature: "Video retention",
-        Free: "180 Days",
-        Pro: "Unlimited",
-        Creator: "Unlimited",
+        free: "180 Days",
+        pro: "Unlimited",
+        creator:"Unlimited",
     },
     {
         feature: "Basic analytics",
-        Free: "Basic",
-        Pro: "Advanced",
-        Creator: "Advanced",
+        free: "Basic",
+        pro: "Advanced",
+        creator: "Advanced",
     },
     {
         feature: "Content",
-        Free: "Ad-supported content",
-        Pro: "Ad-free content delivery",
-        Creator: "Ad-free content delivery",
+        free: "Ad-supported content",
+        pro: "Ad-free content delivery",
+        creator: "Ad-free content delivery",
     },
     {
         feature: "Priority support",
-        Free: "No",
-        Pro: "Yes",
-        Creator: "Yes",
+        free: "No",
+        pro: "Yes",
+        creator: "Yes",
     },
 ];
 
