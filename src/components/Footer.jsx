@@ -2,19 +2,20 @@ import React from "react";
 import { FOOTER_DATA } from "../utils/helper";
 import footerLogo from "../assets/images/svg/header-logo.svg";
 import Description from "./common/Description";
+import CustomBorder from "./common/CustomBorder";
 
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#110018] text-gray-200 lg:pt-20 pt-[60px] p-6">
+      <div className="bg-[#110018] text-gray-200 pt-20 pb-6 px-6">
         <div className="max-w-[1138px] mx-auto flex flex-col md:flex-wrap lg:flex-row justify-between gap-12">
           <div className="lg:w-1/3">
             <div className="flex items-center mb-4">
-              <a href="/"><img
+              <img
                 src={footerLogo}
                 alt="footerLogo"
                 className="lg:w-[360px] object-contain pointer-events-none"
-              /></a>
+              />
             </div>
             <Description
               descriptionText="StreamBliss is a secure, high-speed cloud platform designed for creators to store, share, and collaborate on videos, images, and documents."
@@ -41,7 +42,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="footer-border mt-12 pt-4 text-center text-white/70 text-sm">
+        <div className="footer-border opacity-30 mt-12 pt-4 text-center text-white/70 text-sm">
           © {new Date().getFullYear()} StreamBliss. All rights reserved.
         </div>
       </div>

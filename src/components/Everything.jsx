@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
 import Marquee from "react-fast-marquee";
-import { EveryThing_Data } from "../utils/helper";
+import { EVERYTHING_DATA, } from "../utils/helper";
 import leftEllipse from '../assets/images/png/action-ellipse.png';
 import CustomBorder from "./common/CustomBorder";
 
@@ -23,10 +23,10 @@ const Everything = () => {
             <CustomBorder />
           </div>
         </div>
-        <div className="py-20">
+        <div className="py-10 sm:py-20">
           <Marquee speed={200}>
             <div className="flex gap-8 my-[50px]">
-              {EveryThing_Data.map((item, index) => {
+              {EVERYTHING_DATA.map((item, index) => {
                 const rotation =
                   index % 2 === 0
                     ? "rotate-[8deg] lg:rotate-[15deg]"
@@ -40,7 +40,7 @@ const Everything = () => {
                   >
                     <item.icon />
                     <p className="font-semibold text-2xl lg:text-3xl xl:text-[32px] leading-tight max-w-[280px] lg:max-w-[317px] pt-[21px]">
-                      {item.Heading}
+                      {item.heading}
                     </p>
                     <p className="leading-[160%] max-w-[260px] lg:max-w-[308px] pt-[50px] lg:pt-[100px]">
                       {item.para}
