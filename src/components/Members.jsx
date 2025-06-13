@@ -11,9 +11,9 @@ import CustomBorder from "./common/CustomBorder";
 const Members = () => {
   return (
     <>
-      <div className="px-4" id="members">
+      <div className="px-3" id="members">
         <div className="bg-[#000000]">
-          <div className="max-w-[1920px] mx-auto lg:pb-[140px] md:pb-[100px] sm:pb-[50px] pb-[30px] ">
+          <div className="max-w-[1920px] mx-auto lg:pb-[140px] md:pb-[100px] sm:pb-20 pb-10 ">
             <Heading
               headingClass="text-[#FFFFFF] mb-4"
               headingText="What Members Are Saying"
