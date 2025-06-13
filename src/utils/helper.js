@@ -63,18 +63,18 @@ export const MEMBERS_DATA = [
 
 ];
 
-export const Pricing_Data = [
+export const PRICING_DATA = [
     {
         text: "Free",
         amount: "$00",
         month: "/month",
         para: "Perfect for personal use",
         icon: CheckArrow,
-        para1: "250mb per upload limit",
-        para2: "Unlimited video retention",
-        para3: "Advanced analytics",
-        para4: "Ad-free content delivery",
-        para5: "Priority support",
+        list1: "250mb per upload limit",
+        list2: "Unlimited video retention",
+        list3: "Advanced analytics",
+        list4: "Ad-free content delivery",
+        list5: "Priority support",
     },
     {
         text: "Pro",
@@ -83,11 +83,11 @@ export const Pricing_Data = [
         month: "/month",
         para: "For individual creators",
         icon: CheckArrow,
-        para1: "Up to 10GB per video",
-        para2: "Unlimited video retention",
-        para3: "Advanced analytics",
-        para4: "Ad-free content delivery",
-        para5: "Priority support",
+        list1: "Up to 10GB per video",
+        list2: "Unlimited video retention",
+        list3: "Advanced analytics",
+        list4: "Ad-free content delivery",
+        list5: "Priority support",
     },
     {
         text: "Creator",
@@ -95,54 +95,54 @@ export const Pricing_Data = [
         month: "/month",
         para: "For content groups",
         icon: CheckArrow,
-        para1: "Unlimited video size",
-        para2: "Unlimited video retention",
-        para3: "Advanced analytics",
-        para4: "Ad-free content delivery",
-        para5: "Priority support",
+        list1: "Unlimited video size",
+        list2: "Unlimited video retention",
+        list3: "Advanced analytics",
+        list4: "Ad-free content delivery",
+        list5: "Priority support",
     },
 ];
 
-export const YearlyPricing_Data = [
+export const YEARLYPRICING_DATA = [
     {
         text: "Free",
         amount: "$0",
-        duration: "/year",
+        month: "/month",
         para: "Perfect for personal use",
         save: "No savings on Free plan",
         icon: CheckArrow,
-        para1: "550mb per upload limit",
-        para2: "Unlimited video retention",
-        para3: "Advanced analytics",
-        para4: "Ad-free content delivery",
-        para5: "Priority support",
+        list1: "550mb per upload limit",
+        list2: "Unlimited video retention",
+        list3: "Advanced analytics",
+        list4: "Ad-free content delivery",
+        list5: "Priority support",
     },
     {
         text: "Pro",
         popular: "Most Popular",
         amount: "$96",
-        duration: "/year",
+        month: "/month",
         para: "For individual creators",
         save: "Save 30% with yearly billing",
         icon: CheckArrow,
-        para1: "Up to 30GB per video",
-        para2: "Unlimited video retention",
-        para3: "Advanced analytics",
-        para4: "Ad-free content delivery",
-        para5: "Priority support",
+        list1: "Up to 30GB per video",
+        list2: "Unlimited video retention",
+        list3: "Advanced analytics",
+        list4: "Ad-free content delivery",
+        list5: "Priority support",
     },
     {
         text: "Creator",
         amount: "$240",
-        duration: "/year",
+        month: "/month",
         para: "For content groups",
         save: "Save 40% with yearly billing",
         icon: CheckArrow,
-        para1: "Unlimited 4k video size",
-        para2: "Unlimited video retention",
-        para3: "Advanced analytics",
-        para4: "Ad-free content delivery",
-        para5: "Priority support",
+        list1: "Unlimited 4k video size",
+        list2: "Unlimited video retention",
+        list3: "Advanced analytics",
+        list4: "Ad-free content delivery",
+        list5: "Priority support",
     },
 ];
 
@@ -181,55 +181,55 @@ export const BADGES = [
     },
 ];
 
-export const EveryThing_Data = [
+export const EVERYTHING_DATA = [
     {
         icon: Streaming,
-        Heading: "HD Streaming",
+        heading: "HD Streaming",
         para: "Stream your content in high quality without buffering."
     },
     {
         icon: Cloud,
-        Heading: "Cloud Storage",
+        heading: "Cloud Storage",
         para: "Store your videos securely in the cloud with unlimited storage space."
     },
     {
         icon: ShareX,
-        Heading: "Image Upload with ShareX",
+        heading: "Image Upload with ShareX",
         para: "Upload images instantly using our ShareX configuration for seamless."
     },
     {
         icon: Sharing,
-        Heading: "Private Sharing",
+        heading: "Private Sharing",
         para: "Share your videos privately with selected viewers. "
     },
     {
         icon: Security,
-        Heading: "Advanced Security",
+        heading: "Advanced Security",
         para: "End-to-end encryption ensures your content remains protected. "
     },
     {
         icon: Editing,
-        Heading: "Basic Editing",
+        heading: "Basic Editing",
         para: "Trim, crop, and add filters to your videos directly in the app. "
     },
     {
         icon: Sharing,
-        Heading: "Cross-platform Sharing",
+        heading: "Cross-platform Sharing",
         para: "Easily share your content across all major social platforms. "
     },
     {
         icon: Streaming,
-        Heading: "HD Streaming",
+        heading: "HD Streaming",
         para: "Stream your content in high quality without buffering."
     },
     {
         icon: Community,
-        Heading: "Community",
+        heading: "Community",
         para: "Connect with like-minded creators and build your audience through our community features. "
     },
     {
         icon: Analytics,
-        Heading: "Analytics",
+        heading: "Analytics",
         para: "Track your video performance with detailed viewership statistics and audience insights."
     },
 

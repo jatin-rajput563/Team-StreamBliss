@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
 import Marquee from "react-fast-marquee";
-import { EveryThing_Data } from "../utils/helper";
+import { EVERYTHING_DATA, } from "../utils/helper";
 import leftEllipse from '../assets/images/png/action-ellipse.png';
 import CustomBorder from "./common/CustomBorder";
 
@@ -26,7 +26,7 @@ const Everything = () => {
         <div className="py-10 sm:py-20">
           <Marquee speed={200}>
             <div className="flex gap-8 my-[50px]">
-              {EveryThing_Data.map((item, index) => {
+              {EVERYTHING_DATA.map((item, index) => {
                 const rotation =
                   index % 2 === 0
                     ? "rotate-[8deg] lg:rotate-[15deg]"
