@@ -4,7 +4,7 @@ import { COMPARE_FEATURE_DATA } from "../utils/helper";
 const CompareFeature = () => {
   return (
     <div className="bg-black px-4">
-      <div className="max-w-[1140px] mx-auto pt-7 md:pt-12 lg:pt-20 pb-8 sm:pb-14 md:pb-24 lg:pb-36">
+      <div className="max-w-[1140px] mx-auto pt-10 md:pt-12 lg:pt-20 pb-12 sm:pb-14 md:pb-24 lg:pb-36">
         <h4 className="font-semibold text-xl sm:text-2xl leading-[160%] text-white mb-6">
           Compare Features
         </h4>
