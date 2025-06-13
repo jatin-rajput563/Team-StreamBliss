@@ -38,8 +38,11 @@
     mask-composite: exclude;
 }
 
-.show-navbar {
-    right: 0 !important;
+.bg-img {
+    background-image: url(assets/images/png/hero-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media (min-width: 1024px) {
