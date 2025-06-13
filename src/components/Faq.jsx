@@ -9,7 +9,7 @@ const Faq = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <div className="flex justify-center items-center py-[130px] bg-[#E649A208] relative">
+    <div className="flex justify-center items-center lg:py-[130px] md:py-20 py-[60px] bg-[#E649A208] relative">
       <div className="w-full max-w-[816px] mx-auto px-4">
         <Heading
           headingText="Frequently Asked Questions"
@@ -29,7 +29,7 @@ const Faq = () => {
                   }`}
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
               >
-                <span className="text-left text-2xl font-semibold text-white">
+                <span className="text-left md:text-2xl text-xl font-semibold text-white">
                   {faq.question}
                 </span>
                 <span className="text-2xl text-white font-bold select-none">

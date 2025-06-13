@@ -6,11 +6,11 @@ import Description from "./common/Description";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#110018] text-gray-200 pt-20 py-6">
+      <div className="bg-[#110018] text-gray-200 lg:pt-20 pt-[60px] p-6">
         <div className="max-w-[1138px] mx-auto flex flex-col md:flex-wrap lg:flex-row justify-between gap-12">
           <div className="lg:w-1/3">
             <div className="flex items-center mb-4">
-              <a href="/"> <img
+              <a href="/"><img
                 src={footerLogo}
                 alt="footerLogo"
                 className="lg:w-[360px] object-contain pointer-events-none"
