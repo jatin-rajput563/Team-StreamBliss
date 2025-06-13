@@ -146,7 +146,7 @@ export const YearlyPricing_Data = [
     },
 ];
 
-export const FEATURES = [
+export const GET_STARTED_LIST = [
     {
         img: FastuploadIcon,
         title: "Easy Upload",
@@ -164,7 +164,7 @@ export const FEATURES = [
     },
 ];
 
-export const BADGES = [
+export const SECURITY_FEATURES = [
     {
         img: SecureIcon,
         title: "Secure Storage",
@@ -305,7 +305,7 @@ export const FOOTER_DATA = [
     },
 ];
 
-export const FAQS = [
+export const FAQ_DATA = [
     {
         question: "Can I switch plans later?",
         answer:

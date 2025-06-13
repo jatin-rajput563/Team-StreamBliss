@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { FAQS } from "../utils/helper";
+import { FAQ_DATA } from "../utils/helper";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
 import blurLayer from "../assets/images/png/header-ellipse.png";
 import CustomBorder from "./common/CustomBorder";
 
-const FAQ = () => {
+const Faq = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -22,7 +22,7 @@ const FAQ = () => {
         <CustomBorder />
         <div className="footer-border mb-6"></div>
         <div className="bg-transparent">
-          {FAQS.map((faq, idx) => (
+          {FAQ_DATA.map((faq, idx) => (
             <div key={faq.question} className="border-b border-white/20">
               <button
                 className={`w-full flex justify-between items-center py-6 focus:outline-none cursor-pointer ${openIndex === idx ? "pb-4" : ""
@@ -54,4 +54,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;
