@@ -32,10 +32,10 @@ const Pricing = () => {
           <CustomBorder />
         </div>
         <div className="flex justify-center mx-auto items-center">
-          <div className="inline-flex items-center mx-auto  border border-[#FFFFFF3D] rounded-full p-[8px] bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
+          <div className="inline-flex items-center mx-auto border border-[#FFFFFF3D] rounded-full p-[8px] bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
             <button
               onClick={() => setPage("home")}
-              className={`py-[15px] px-[34.66px] rounded-full transition-all duration-300 font-bold text-lg leading-[160%]
+              className={`py-[10px] px-[20px] sm:py-[12px] sm:px-[28px] md:py-[15px] md:px-[34.66px] rounded-full transition-all duration-300 font-bold text-sm sm:text-base md:text-lg leading-[160%]
         ${
           page === "home"
             ? "bg-gradient-to-b from-[#B851E0] to-[#EB489B] text-white"
@@ -48,7 +48,7 @@ const Pricing = () => {
 
             <button
               onClick={() => setPage("about")}
-              className={`py-[15px] px-[34px] flex items-center rounded-full transition-all duration-300 font-semibold text-lg
+              className={`py-[10px] px-[20px] sm:py-[12px] sm:px-[28px] md:py-[15px] md:px-[34px] flex items-center rounded-full transition-all duration-300 font-semibold text-sm sm:text-base md:text-lg
         ${
           page === "about"
             ? "bg-gradient-to-b from-[#B851E0] to-[#EB489B] text-white"
@@ -57,7 +57,7 @@ const Pricing = () => {
       `}
             >
               Yearly
-              <span className="ml-2 text-xs flex items-center justify-center w-[83px] h-[24px] gap-[5px] rounded-[34px] border border-white pt-[1px] pr-[8px] pb-[1px] pl-[8px] bg-[#D04DBF1F]">
+              <span className="ml-2 whitespace-nowrap text-[10px] sm:text-xs flex items-center justify-center w-[60px] sm:w-[70px] md:w-[83px] h-[20px] sm:h-[22px] md:h-[24px] gap-[5px] rounded-[34px] border border-white pt-[1px] pr-[8px] pb-[1px] pl-[8px] bg-[#D04DBF1F]">
                 SAVE 20%
               </span>
             </button>
