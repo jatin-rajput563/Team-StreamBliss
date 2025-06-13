@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
         <div className="max-w-[994px] mx-auto">
           <img className='mx-auto pt-17 max-h-[630px] w-full pointer-events-none' src={heroImg} alt="hero-img" />
-          <div className="flex flex-wrap max-lg:gap-4 lg:justify-between z-1 relative max-sm:pt-6 justify-center max-[681px]:-translate-y-10 min-[1017px]:-translate-y-20">
+          <div className="flex flex-wrap max-lg:gap-4 lg:justify-between z-1 relative max-sm:pt-6 justify-center max-[681px]:-translate-y-10 min-[1017px]:-translate-y-15">
             <div className='py-[14px] px-[87px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CameraIcon /> <span>461 watching</span></div>
             <div className='p-[14px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><UploadIcon /> <span>2,000+ Creators uploading now</span></div>
             <div className='py-[14px] px-[61.5px] relative border-0 border-gradient items-center !rounded-xl text-white !font-medium !text-base flex gap-[10px] !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)]'><CloudIcon /> <span> 2069 uploads today</span></div>
