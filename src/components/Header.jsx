@@ -44,12 +44,12 @@ const Header = () => {
               {HEADER_LIST.map((item, index) => (
                 <li key={index}><a onClick={linkClick} className='text-white header-link leading-[160%] transition-all duration-200 ease-linear' href={item.link}>{item.title}</a></li>
               ))}
-              <li className='lg:hidden'><CustomButton onClick={linkClick} btnClass={"px-[55px] py-3.5"} btnText={"Dashboard"} /></li>
-              <li className='lg:hidden'><a onClick={linkClick} className='border-[#B3B3B4] border size-[57px] rounded-full flex items-center justify-center' href="/"><ProfileIcon /></a></li>
+              <li className='lg:hidden'><CustomButton onClick={linkClick} btnClass={"px-[55px] py-3.5 !border border-[#B2B3B4] !bg-none !text-[#B3B6B7] hover:!text-white"} btnText={"Dashboard"} /></li>
+              <li className='lg:hidden'><a onClick={linkClick} className='border-[#B3B3B4] border size-[57px] rounded-full flex items-center justify-center hover:bg-[#E649A1] hover:border-[#E649A1]' href="/"><ProfileIcon /></a></li>
             </ul>
             <ul className='max-lg:hidden flex gap-4 items-center justify-center'>
-              <li><CustomButton onClick={linkClick} btnClass={"px-[54.2px] py-[13.2px]"} btnText={"Dashboard"} /></li>
-              <li><a className='border-[#B3B3B4] border size-[57px] rounded-full flex items-center justify-center hover:bg-gradient-to-b from-[#B851E0] to-[#EB489B] hover:border-transparent transition-all duration-200 ease-linear' href="/"><ProfileIcon /></a></li>
+              <li><CustomButton onClick={linkClick} btnClass={"px-[54.2px] py-[13.2px] !border border-[#B2B3B4] !bg-none !text-[#B3B6B7] hover:!text-white"} btnText={"Dashboard"} /></li>
+              <li><a className='border-[#B3B3B4] border size-[57px] rounded-full flex items-center justify-center hover:bg-[#E649A1] hover:border-[#E649A1] transition-all duration-200 ease-linear' href="/"><ProfileIcon /></a></li>
             </ul>
           </div>
         </nav>

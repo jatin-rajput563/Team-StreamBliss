@@ -31,8 +31,8 @@ const Hero = () => {
             <Description descriptionClass={"text-center max-w-[554px] pt-4"} descriptionText={"Store, share, and collaborate on videos, images, docs, and more — all in one secure, lightning-fast platform."} />
           </div>
           <div className="flex flex-wrap items-center gap-6 justify-center pt-10 z-1 relative">
-            <CustomButton btnClass={"py-[13.5px] px-[54.5px]"} btnText={"Start For Free"} />
-            <CustomButton btnClass={"py-[13.5px] px-[23.5px]"} btnText={"See Platform in Action"} />
+            <CustomButton btnClass={"py-[13.5px] px-[54.5px] hover:bg-gradient-to-t hover:from-[#B851E0] hover:to-[#EB489B] transition-all duration-500"} btnText={"Start For Free"} />
+            <CustomButton btnClass={"py-[13.5px] px-[23.5px] bg-none border border-[#B2B3B4] !text-[#B3B6B7] hover:!text-white"} btnText={"See Platform in Action"} />
           </div>
         </div>
         <div className="max-w-[994px] mx-auto">
