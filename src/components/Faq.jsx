@@ -43,7 +43,7 @@ const FAQ = () => {
                   openIndex === idx ? "max-h-40 pb-6" : "max-h-0"
                 } text-white/70`}
               >
-                <div className="pb-4">{faq.answer}</div>
+                <div className="pb-4 max-w-[694px]">{faq.answer}</div>
               </div>
             </div>
           ))}
