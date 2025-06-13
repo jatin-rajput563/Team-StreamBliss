@@ -39,7 +39,7 @@
 }
 
 .bg-img {
-    background-image: url(assets/images/png/hero-bg-img.png);
+    background-image: url(../src/assets/images/png/hero-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

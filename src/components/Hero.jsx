@@ -9,7 +9,7 @@ import heroEllipse from '../assets/images/png/header-ellipse.png';
 
 const Hero = () => {
   return (
-    <div id='home' className='overflow-hidden'>
+    <div id='home' className='overflow-hidden bg-img'>
       <div className="mx-auto">
         <Header />
       </div>
