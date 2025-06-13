@@ -78,6 +78,7 @@ const Ready = () => {
               ))}
             </div>
           </div>
+
         </div>
       </div>
     </div>

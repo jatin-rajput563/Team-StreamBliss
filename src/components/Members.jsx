@@ -13,7 +13,7 @@ const Members = () => {
     <>
       <div className="px-4">
         <div className="bg-black">
-          <div className="max-w-[1920px] mx-auto pb-[50px] sm:pb-[60px] md:pb-[80px] lg:pb-[140px]">
+          <div className="max-w-[1920px] mx-auto pb-[60px] md:pb-[80px] lg:pb-[140px]">
             <Heading
               headingClass="text-white mb-4"
               headingText="What Members Are Saying"
