@@ -47,8 +47,8 @@ const FAQ = () => {
           ))}
         </div>
       </div>
-      <div className="absolute right-0 max-w-[379px] top-[3%]">
-        <img src={blurLayer} alt="blurLayer" className="!pointer-events-none mix-blend-multiply" />
+      <div className="absolute right-0 max-w-[379px] top-[3%] pointer-events-none">
+        <img src={blurLayer} alt="blurLayer" className="mix-blend-multiply" />
       </div>
     </div>
   );
