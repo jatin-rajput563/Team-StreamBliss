@@ -23,8 +23,8 @@ const Ready = () => {
                 descriptionClass="mb-10 z-1"
               />
               <CustomButton
-                btnText="Start Uploading"
-                btnClass="!px-[45px] z-1 !py-[12px] w-fit"
+                btnText="Start Uploading "
+                btnClass="!px-[45px] z-1 hover:bg-gradient-to-t hover:from-[#B851E0] hover:to-[#EB489B] transition-all duration-500 !py-[12px] w-fit"
               />
             </div>
             <div className="flex-1 flex flex-col gap-6 z-1">
