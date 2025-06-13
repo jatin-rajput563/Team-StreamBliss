@@ -9,11 +9,11 @@ import heroEllipse from '../assets/images/png/header-ellipse.png';
 
 const Hero = () => {
   return (
-    <div id='home' className='overflow-hidden bg-img'>
+    <div className='overflow-hidden bg-img'>
       <div className="mx-auto">
         <Header />
       </div>
-      <div className="px-3 relative pb-15 min-[1024px]:pb-0">
+      <div id='home' className="px-3 relative pb-15 min-[1024px]:pb-0">
         <img className='absolute max-w-[435px] max-h-[435px] -right-40 top-43 mix-blend-multiply hidden lg:block pointer-events-none' src={heroEllipse} alt="ellipse" />
         <div className="max-w-[1140px] mx-auto relative">
           <div className="max-w-[239px] absolute top-45 left-9 hidden lg:block">
