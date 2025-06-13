@@ -281,11 +281,11 @@ export const FOOTER_DATA = [
     {
         title: "Company",
         links: [
-            { label: "Home", link: "#" },
-            { label: "About", link: "#" },
-            { label: "Features", link: "#" },
-            { label: "How it Works", link: "#" },
-            { label: "Pricing", link: "#" },
+            { label: "Home", link: "#home" },
+            { label: "About", link: "#about" },
+            { label: "Features", link: "#features" },
+            { label: "How it Works", link: "#work" },
+            { label: "Pricing", link: "#pricing" },
         ],
     },
     {
