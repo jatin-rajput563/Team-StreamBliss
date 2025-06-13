@@ -3,6 +3,7 @@ import CustomButton from '../components/common/CustomButton'
 import { HEADER_LIST } from '../utils/helper';
 import { ProfileIcon } from '../utils/Icons';
 import headerLogo from '../assets/images/svg/header-logo.svg';
+import headerLogoTwo from '../assets/images/svg/header-logo-2.svg';
 import headerEllipse from '../assets/images/png/header-ellipse.png';
 import headerEllipseTwo from '../assets/images/png/header-ellipse-2.png';
 
@@ -32,7 +33,8 @@ const Header = () => {
         <img className='absolute max-w-[238px] max-h-[67px] w-full left-[43%] top-[47px] pointer-events-none' src={headerEllipseTwo} alt="header ellipse" />
         <nav className='max-w-[1140px] mx-auto py-4.5 md:py-[21.5px]'>
           <div className="flex justify-between items-center">
-            <a href="/"><img className='pointer-events-none' src={headerLogo} alt="nav-logo" /></a>
+            <a className=' hidden sm:block' href="/"><img className='pointer-events-none' src={headerLogo} alt="nav-logo" /></a>
+            <a className='sm:hidden' href="/"><img className='pointer-events-none' src={headerLogoTwo} alt="nav-logo" /></a>
             <div onClick={toggleNavbar} className="z-50 lg:hidden flex flex-col justify-between w-6 h-5 cursor-pointer">
               <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'rotate-45 translate-y-2'}`}></span>
               <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
