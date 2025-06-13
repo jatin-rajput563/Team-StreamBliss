@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FAQS } from "../utils/helper";
+import { FAQ_DATA, } from "../utils/helper";
 import Heading from "./common/Heading";
 import Description from "./common/Description";
 import blurLayer from "../assets/images/png/header-ellipse.png";
@@ -22,14 +22,15 @@ const FAQ = () => {
         <CustomBorder />
         <div className="footer-border mb-6"></div>
         <div className="bg-transparent">
-          {FAQS.map((faq, idx) => (
+          {FAQ_DATA.map((faq, idx) => (
             <div key={faq.question} className="border-b border-white/20">
               <button
-                className={`w-full flex justify-between items-center py-6 focus:outline-none cursor-pointer ${openIndex === idx ? "pb-4" : ""
-                  }`}
+                className={`w-full flex justify-between items-center py-6 focus:outline-none cursor-pointer ${
+                  openIndex === idx ? "pb-4" : ""
+                }`}
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
               >
-                <span className="text-left text-2xl font-semibold text-white">
+                <span className="text-left md:text-2xl text-xl  font-semibold text-white">
                   {faq.question}
                 </span>
                 <span className="text-2xl text-white font-bold select-none">
@@ -38,8 +39,9 @@ const FAQ = () => {
               </button>
 
               <div
-                className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === idx ? "max-h-40 pb-6" : "max-h-0"
-                  } text-white/70`}
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                  openIndex === idx ? "max-h-40 pb-6" : "max-h-0"
+                } text-white/70`}
               >
                 <div className="pb-4">{faq.answer}</div>
               </div>

@@ -32,7 +32,7 @@ const Pricing = () => {
           <CustomBorder />
         </div>
         <div className="flex justify-center mx-auto items-center">
-          <div className="inline-flex items-center mx-auto border border-[#FFFFFF3D] rounded-full p-[8px] bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
+          <div className="inline-flex items-center mx-auto  border border-[#FFFFFF3D] rounded-full p-[8px] bg-[#ffffff0d] shadow-[inset_0px_0px_6.5px_0px_#D74CB661]">
             <button
               onClick={() => setPage("home")}
               className={`py-[15px] px-[34.66px] rounded-full transition-all duration-300 font-bold text-lg leading-[160%]
@@ -127,12 +127,15 @@ const Monthly = () => (
                     </div>
                   </div>
                   <div className="mt-[97px]">
-                    <CustomButton
-                      btnText={"Get Started"}
-                      btnClass={`py-[14px] mx-auto flex px-[87px] xl:px-[104px] z-2 relative ${
-                        index % 2 === 1 ? "even-btn" : ""
+                    <button
+                      className={`py-[14px] mx-auto flex px-[87px] xl:px-[104px] cursor-pointer z-2 !relative ${
+                        index % 2 === 1
+                          ? "even-btn"
+                          : "border border-[#B3B3B3] rounded-[65px] hover:bg-[#E649A1] hover:border-[#E649A1] hover:text-white transition-all duration-200 ease-linear text-[#B4B3B4]"
                       }`}
-                    />
+                    >
+                      Get Started
+                    </button>
                   </div>
                 </div>
               </div>
@@ -191,12 +194,15 @@ const Yearly = () => (
                     ))}
                   </div>
                   <div className="mt-[97px]">
-                    <CustomButton
-                      btnText={"Get Started"}
-                      btnClass={`py-[14px] mx-auto flex px-[87px] xl:px-[104px] z-2 relative ${
-                        index % 2 === 1 ? "even-btn" : ""
+                    <button
+                      className={`py-[14px] mx-auto flex px-[87px] xl:px-[104px] cursor-pointer z-2 !relative ${
+                        index % 2 === 1
+                          ? "even-btn"
+                          : "border border-[#B3B3B3] rounded-[65px] hover:bg-[#E649A1] hover:border-[#E649A1] hover:text-white transition-all duration-200 ease-linear text-[#B4B3B4]"
                       }`}
-                    />
+                    >
+                      Get Started
+                    </button>
                   </div>
                 </div>
               </div>

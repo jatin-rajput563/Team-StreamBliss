@@ -40,7 +40,7 @@ const Everything = () => {
                   >
                     <item.icon />
                     <p className="font-semibold text-2xl lg:text-3xl xl:text-[32px] leading-tight max-w-[280px] lg:max-w-[317px] pt-[21px]">
-                      {item.Heading}
+                      {item.heading}
                     </p>
                     <p className="leading-[160%] max-w-[260px] lg:max-w-[308px] pt-[50px] lg:pt-[100px]">
                       {item.para}
