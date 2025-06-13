@@ -7,7 +7,7 @@ import CustomBorder from "./common/CustomBorder";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#110018] text-gray-200 pt-20 pb-6 px-6">
+      <div className="bg-[#110018] text-gray-200 md:pt-20 pt-[60px] pb-6 px-6">
         <div className="max-w-[1138px] mx-auto flex flex-col md:flex-wrap lg:flex-row justify-between gap-12">
           <div className="lg:w-1/3">
             <div className="flex items-center mb-4">

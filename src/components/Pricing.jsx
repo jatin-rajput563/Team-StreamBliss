@@ -11,7 +11,7 @@ const Pricing = () => {
   const [page, setPage] = useState("home");
 
   return (
-    <div id="pricing" className="relative text-white pt-10 sm:pt-16">
+    <div id="pricing" className="relative text-white pt-5 sm:pt-16">
       <img
         className="max-w-[379px] max-h-[379px] w-full absolute -bottom-25 left-0 pointer-events-none"
         src={leftEllipse}

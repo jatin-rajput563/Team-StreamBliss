@@ -9,7 +9,7 @@ const Faq = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <div className="flex justify-center items-center py-10 sm:py-20 md:py-[130px] bg-[#E649A208] relative">
+    <div className="flex justify-center items-center py-[60px] sm:py-20 md:py-[130px] bg-[#E649A208] relative">
       <div className="w-full max-w-[816px] mx-auto px-3">
         <Heading
           headingText="Frequently Asked Questions"
