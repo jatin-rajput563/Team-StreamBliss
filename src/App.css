@@ -166,3 +166,12 @@
     border: none !important;
     border-radius: 65px;
 }
+
+.custom-scrollbar::-webkit-scrollbar {
+    height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: linear-gradient(to bottom, #B851E0, #EB489B);
+}
