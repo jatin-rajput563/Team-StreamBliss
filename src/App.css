@@ -128,10 +128,10 @@
     overflow: hidden;
     backdrop-filter: blur(16px);
     box-shadow: 0px 8px 24px 0px #42E8E014;
-    transform: scale(1.05);
     transition: transform 0.3s ease;
     border-radius: 20px;
     z-index: 2;
+    width: 100%;
 }
 
 .even-card::before {
@@ -174,4 +174,10 @@
 .custom-scrollbar::-webkit-scrollbar-thumb {
     border-radius: 6px;
     background: linear-gradient(to bottom, #B851E0, #EB489B);
+}
+
+@media (min-width:640px) {
+    .even-card {
+        transform: scale(1.05);
+    }
 }

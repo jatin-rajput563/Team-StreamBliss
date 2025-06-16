@@ -7,6 +7,7 @@ import CustomBorder from "./common/CustomBorder";
 const Footer = () => {
   return (
     <>
+      <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-5 mx-auto"></div>
       <div className="bg-[#110018] text-gray-200 md:pt-20 pt-[60px] pb-6 px-6">
         <div className="max-w-[1138px] mx-auto flex flex-col md:flex-wrap lg:flex-row justify-between gap-12">
           <div className="lg:w-1/3">
@@ -42,6 +43,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
+        <CustomBorder borderClass={"max-w-full mt-[65px] opacity-30"} />
         <div className="footer-border opacity-30 mt-12 pt-4 text-center text-white/70 text-sm">
           © {new Date().getFullYear()} StreamBliss. All rights reserved.
         </div>

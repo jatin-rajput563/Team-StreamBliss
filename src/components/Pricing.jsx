@@ -9,11 +9,10 @@ import { PRICING_DATA, YEARLYPRICING_DATA } from "../utils/helper";
 const ToggleButton = ({ label, active, onClick, badge }) => (
   <button
     onClick={onClick}
-    className={`py-[10px] px-[20px] sm:py-[12px] sm:px-[28px] md:py-[15px] md:px-[34px] flex items-center rounded-full transition-all duration-300 font-semibold text-sm sm:text-base md:text-lg cursor-pointer ${
-      active
-        ? "bg-gradient-to-b from-[#B851E0] to-[#EB489B] text-white"
-        : "bg-transparent text-gray-300 hover:text-white"
-    }`}
+    className={`py-[10px] px-[20px] sm:py-[12px] sm:px-[28px] md:py-[15px] md:px-[34px] flex items-center rounded-full transition-all duration-300 font-semibold text-sm sm:text-base md:text-lg cursor-pointer ${active
+      ? "bg-gradient-to-b from-[#B851E0] to-[#EB489B] text-white"
+      : "bg-transparent text-gray-300 hover:text-white"
+      }`}
   >
     {label}
     {badge && (
@@ -27,9 +26,8 @@ const ToggleButton = ({ label, active, onClick, badge }) => (
 const PricingCard = ({ item, index }) => (
   <div className="w-full lg:w-1/3 max-w-sm max-lg:mb-6">
     <div
-      className={`flex flex-col p-6 rounded-[20px] backdrop-blur-[16px] transition-all duration-300 h-full border border-[#1F1D1F] relative ${
-        index % 2 ? "even-card" : ""
-      }`}
+      className={`flex flex-col p-6 rounded-[20px] backdrop-blur-[16px] transition-all duration-300 h-full border border-[#1F1D1F] relative ${index % 2 ? "even-card" : ""
+        }`}
     >
       <div className="flex-grow flex flex-col">
         <div className="flex items-center gap-[10px] mb-4">
@@ -59,11 +57,10 @@ const PricingCard = ({ item, index }) => (
         </div>
         <div className="mt-[97px]">
           <button
-            className={`py-[14px] mx-auto flex px-[87px] xl:px-[104px] cursor-pointer z-2 !relative ${
-              index % 2
-                ? "even-btn"
-                : "border border-[#B3B3B3] rounded-[65px] hover:bg-[#E649A1] hover:border-[#E649A1] hover:text-white transition-all duration-200 ease-linear text-[#B4B3B4]"
-            }`}
+            className={`py-[14px] mx-auto flex px-[87px] xl:px-[104px] cursor-pointer z-2 !relative ${index % 2
+              ? "even-btn"
+              : "border border-[#B3B3B3] rounded-[65px] hover:bg-[#E649A1] hover:border-[#E649A1] hover:text-white transition-all duration-200 ease-linear text-[#B4B3B4]"
+              }`}
           >
             Get Started
           </button>
