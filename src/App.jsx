@@ -9,6 +9,16 @@ import Ready from "./components/Ready";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import BackToTop from "./components/common/BackToTop";
+import Lenis from "lenis";
+
+const lenis = new Lenis({
+  autoRaf: true,
+});
+
+lenis.on("scroll", (e) => {
+  console.log(e);
+});
+
 
 function App() {
   return (
